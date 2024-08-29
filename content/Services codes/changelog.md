@@ -1,0 +1,287 @@
+## **Change Log**
+
+**Version 6.3 August 12 2024**
+
+* * Updated Ncell Topup API. Please refer to [**2.2 Ncell**](/MobileTopup/ncell)
+
+**Version 6.2 July 10 2024**
+
+* Updated Ncell data API. Please refer to [18\. Ncell Data Pack](/datapacks/NcellProduct)  
+* Updated Ntc data API. Please refer to [19\. NTC Data Pack](/datapacks/ntcProduct)
+
+
+**Version 6.1 June 24 2024**
+
+* Updated Shikhar Insurance API. Please refer to [11.26 Arhant Non Life Insurance](\#11.26-arhant-non-life-insurances)
+
+
+**Version 6.0 June 18 2024**
+
+* Updated NT FTTH API Document. [8.21. NT FTTH](\#8.21.-nt-ftth)   There is no change in API, updated the Note from “Initial 6 characters are always constant \- ie. 100000” to “Initial 5 characters are always constant \- ie. 10000”.
+
+
+**Version 5.9 June 11 2024**
+
+* Added New Service Wifi nepal in [8.44 Wifi Nepal](\#8.44.-wifi-nepal)  
+* Updated the Kaspersky API in [10.1. Kaspersky API](\#10.1.-kaspersky-api)
+
+
+**Version 5.8 May 31 2024**
+
+* Shifted Internet VNS from 8.42 [Vns : vns](\#vns-:-vns-1) to [8.25. HashCNet V2](\#8.25.-hashcnet-v2) VNS 
+
+
+**Version 5.7 April 25 2024**
+
+* Updated ticket download API for Service Cable car in [21\. Cable Car](\#21.-cable-car)
+
+
+**Version 5.6 March 26 2024**
+
+* Added New Service Cable car in [21\. Cable Car](\#21.-cable-car)
+
+
+**Version 5.5 March 18 2024**
+
+* Updated the package response in [8.43 Dish Home](\#8.43.-dish-home)
+
+
+**Version 5.4 Feb 18 2024**
+
+* Added the [FAQ Section](\#frequently-asked-questions)  
+* Updated the typo mistakes in [8.43 Dish Home](\#8.43.-dish-home)
+
+
+**Version 5.3 Feb 15 2024**
+
+* Updated the typo mistakes in [8.43 Dish Home](\#8.43.-dish-home)
+
+**Version 5.2 Feb 8 2024**
+
+* Updated the Dish home API [8.43 Dish Home](\#8.43.-dish-home)  
+  Removed [8.40 Dishhome combo](\#8.40.-dish-home-combo-(deprecated)) , [8.38. Dishhome ftth](\#8.38-dish-home-ftth-(deprecated)),  [7.1 Dishhome](\#7.1-dishhome(deprecated))
+
+**Version 5.1 Jan 28 2024**
+
+* Updated the typo mistakes in [20.4 Softlab Electricity](\#20.4-softlab-electricity)
+
+**Version 5.0 Jan 18 2024**
+
+* Added Watermark electricity in the Community Electricity Section. [20.2 Watermark Electricity](\#20.2-watermark-electricity)  
+* Added Dreamer electricity in the Community Electricity Section. [20.3 Dreamer Electricity](\#20.3-dreamer-electricity)  
+* Added Softlab electricity in the Community Electricity Section. [20.4 SoftLab Electricity](\#20.4-softlab-electricity)
+
+**Version 4.9 Jan 10 2024**
+
+* Updated the typo mistakes. in [11.18. Arhant Life Insurance](\#11.18.-arhant-life-insurance)  
+* Added Nepal Insurance in insurance section (11.23) [Nepal Insurance](\#11.23.-nepal-insurance)  
+* Added Rastriya Beema Sasthan in insurance section (11.24) [Rastriya Beema Sansthan](\#11.24.-rastriya-beema-sansthan)  
+* Added Surya Jyoti Loan Repayment in insurance section (11.25) [Surya Jyoti Loan Repayment](\#11.25.-surya-jyoti-loan-repayment)  
+* Added Sun Life Insurance in insurance section (11.26) [Sun Life Insurance](\#11.26.-sun-life-insurance)
+
+**Version 4.8 Nov 02 2023**
+
+* Clear TV API is obsolete now. Subisu API will be used for clear tv payment. [8.2 Subisu New](\#8.2-subisu-new)
+
+**Version 4.7 Oct 11 2023**
+
+* Ime Life Insurance API has been updated, Please refer to [Ime Life Insurance : ime-life-insurance](\#ime-life-insurance-:-ime-life-insurance) (11.18) for new API.  
+
+**Version 4.7 Oct 9 2023**
+
+* United insurance and Ajod insurance API merge. Please use the United insurance API. [United Insurance : united-insurance](\#united-insurance-:-united-insurance)
+
+**Version 4.6 Sept 21 2023**
+
+* Added ultranet to 8.25 [Ultra Net : ultra-net](\#ultra-net-:-ultra-net)
+
+**Version 4.5 Sept 17 2023**
+
+* Added Smart link ISP in internet section (8.28)  
+* Added Pathibara Internet in internet section (8.6) 
+
+**Version 4.4 August 29 2023**
+
+* Added Rapid Unique Network in internet section (8.41)  
+* Added Iconwave \- VNS in internet section (8.42)
+
+**Version 4.3 August 20 2023**
+
+* Added sky internet under times in internet. (8.6.4)  
+* Updated Chitrawan Unique Net API. Added to Konnect. (8.33)
+
+**Version 4.2 August 15 2023**
+
+* Lumbini General insurance and Sagarmatha insurance API merge. Please use Sagarmatha insurance API. Sagarmatha Insurance API has been renamed to Sagarmatha Lumbini Insurance.   
+* Siddhartha insurance and Premier insurance API merge. Please use Siddhartha insurance API. Siddhartha Insurance API has been renamed to Siddhartha Premier Insurance. 
+
+**Version 4.1 August 14 2023**
+
+* Reliance Insurance payment API response updated, added key extra\_data in payment API response. 
+
+**Version 4.0 July 31 2023**
+
+* Prabhu life insurance and Mahalaxmi life insurance API merge. Please use Prabhu LIfe insurance API.   
+* Prime life insurance and Union life insurance API merge to Himalayan life insurance 11.9. Prime life insurance has been renamed to Himalayan life insurance.  Please use Himalayan LIfe insurance API. 11.9  
+* Himalayan General Insurance and Everest insurance API merge. Please use Himalayan General  (HG insurance) insurance API. 11.8  
+* Sanima General Insurance and GIC insurance API merge. Please use Sanima General insurance API. 11.3
+
+**Version 3.9 June 30 2023**
+
+* Surya Jyoti API updated (11.5).Surya life insurance and Jyoti life insurance API merge. Please use Surya Jyoti LIfe insurance API. 
+
+**Version 3.8 June 30 2023**
+
+* Subisu API updated (8.2)
+
+**Version 3.7 June 20 2023**
+
+* Pokhara Internet Lekhnath API added (8.25)  
+* Asian life insurance API updated (11.18)
+
+**Version 3.6 June 16 2023**
+
+* Web Network API added (8.10)  
+* Acme Internet API added (8.33)
+
+**Version 3.5 June 1 2023**
+
+* Sky broadband API updated. (8.35)
+
+**Version 3.4 May 22 2023**
+
+* Status code was added 
+
+**Version 3.3 May 15 2023**
+
+* Subisu Internet and Tv is updated to Api based from offline to online
+
+**Version 3.2 April 28 2023**
+
+* BBN Internet shifted from HashCnet v1 to HashCnet v2
+
+**Version 3.1 April 11 2023** 
+
+* Surya life insurance and Jyoti life insurance API merge. Please use Jyoti LIfe insurance API.   
+* Sanima life insurance and Reliance life insurance API merge. Please use Reliance LIfe insurance API. 
+
+**Version 3.1 April 11 2023** 
+
+* Mero TV and Sky TV is shifter under Times \- TV API  
+* SKY Cable \- shifted to Times \- TV(7.9) and Times \- Internet  (8.6)  
+* SKY Topup and websurfer top-up service is removed.
+
+**Version 3.0 March 29 2023**
+
+* Updated Konnect API. Added different usernames.   
+* Khanepani Charge API is added  
+* NEA Service charge API added
+
+**Version 2.9 March 2 2023**
+
+* Updated Chitrawan Unique Net API   
+* Added hashcnet v2 Under Internet  
+* These ISP are shifted from hashcnet v1 to hashcnet v2 
+
+  Airson Internet 
+
+  Broadband Solutions 
+
+  Everest Wireless 
+
+  Fast Speed 
+
+  Fiberworld Communication 
+
+  Hons 
+
+
+  Janaki Cable Network 
+
+  Sahaj Network 
+
+  Super Eight Networks 
+
+  Ultra Net 
+
+  Unified Communication Isp
+
+* Bbn Internet is removed
+
+**Version 2.8 Feb 19 2023**
+
+* Added citizen life insurance (11.21)  
+* Update on sim tv denomination
+
+**Version 2.7 Jan 20 2023**
+
+* Shifted Alsiha communication from hash cnet to merosoft.   
+* Shifted Loop Network to Konnect   
+* Shifted Fast speed to hash cnet
+
+**Version 2.6 Sept 6**
+
+* Added GRS Internet
+
+**Version 2.5 Aug 5** 
+
+* Unified Communication, everest wireless changed to HashCNet  
+* Palsnet, Reliant Technology added under times
+
+**Version 2.4 Jul 18** 
+
+* Added Nt FTTH (8.23)
+
+**Version 2.3 Jun 23**
+
+* Added IME Life Insurance (11.20)
+
+**Version 2.2 Jun 17**
+
+* Added Himchuli Electricity (20.1)  
+* Updated websurfer API (8.6)
+
+**Version 2.1, Nov 30**
+
+* Askina changed to HashCNet
+
+**Version 2.0, May 21**
+
+* Alisha Communication API update. 
+
+**Version 1.9, Jan 7**
+
+* Removed 695 denos of SIM TV 
+
+**Version 1.8, Dec 31**
+
+* Added reference parameter in all the multistep/session based API.
+
+**Version 1.6, Dec 17**
+
+* Added Prime Life Insurance, Sanima Life Insurance, Nepal Life Insurance, Shikhar Insurance, Sanima General Insurance, Mahalaxmi Life Insurance
+
+**Version 1.6, Oct 1**
+
+* Added P\&G, Jagriti cable in TV payment
+
+**Version 1.5, Aug 21**
+
+* Update on sim tv denomination
+
+**Version 1.4, Aug 21**
+
+* Removed denomination below 1000 from dishome
+
+**Version 1.3, July 29**
+
+* Added Ncell Data Pack API
+
+**Version 1.2, July 3**
+
+* Service Status Changes
+
+**Version 1.1,  July 1**
+
+* Added Himilayan general Insurance API  
+* Added Ultranet ISP API
