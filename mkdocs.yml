@@ -1,0 +1,70 @@
+site_name: Khalti Services Documentation
+nav:
+  - Introduction: index.md
+  - Service Layer State: Services codes/statecode.md
+  - Khalti Topup: Khaltitopup/khaltitopup.md
+  - Mobile TopUp:
+        - Nepal Telecom: MobileTopup/nepal_telecom.md
+        - Ncell: MobileTopup/ncell.md
+  - Rc Card: Rc card/rccard.md
+  - PSTN (Landline): PSTN/landline.md
+  - Electricity: Electricity/nea.md
+  - Khanepani: Khanepani/khanepani.md
+  - Data Packs:
+      - Ncell DataPacks: datapacks/NcellProduct.md
+      - NTC DataPacks: datapacks/ntcProduct.md 
+  - State List: Services codes/statelist.md
+  - Bulk Service Lookup: Services codes/bulkservice.md
+  - Changelog: Services codes/changelog.md
+  - FAQ's: Services codes/faq.md
+
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: "https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/images/favicon.png"
+  icon:
+    logo: "img/khalti_logo"
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
+  - style/custom.css
+  - style/extra.css
+docs_dir: content  
+site_dir: docs
+repo_name: "khalti/serviceapi.docs.khalti.com"
+repo_url: "https://github.com/khalti/serviceapi.docs.khalti.com/"
+edit_uri: "edit/master/content/"
+copyright: "Copyright &copy; 2024 Khalti Private Limited"
+
+extra:
+  social:
+    - icon: "fontawesome/brands/github"
+      link: "https://github.com/khalti"
+    - icon: "fontawesome/brands/twitter"
+      link: "https://twitter.com/KhaltiOfficial"
+    - icon: "fontawesome/brands/linkedin"
+      link: "https://www.linkedin.com/company/khalti-digital-wallet"
+    - icon: "fontawesome/brands/facebook"
+      link: "https://facebook.com/khaltiofficial"
+    - icon: "fontawesome/brands/instagram"
+      link: "https://www.instagram.com/khaltiofficial/"
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - codehilite
+  - pymdownx.details
+  - pymdownx.superfences
+
+# Uncomment and install any necessary plugins if needed
+# plugins:
+#   - search
+#   - social
