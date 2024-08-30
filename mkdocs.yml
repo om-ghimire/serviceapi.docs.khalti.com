@@ -9,9 +9,12 @@ nav:
   - Rc Card: Rc card/rccard.md
   - PSTN (Landline): PSTN/landline.md
   - Electricity: Electricity/nea.md
+  - Khanepani: Khanepani/khanepani.md
   - Data Packs:
       - Ncell DataPacks: datapacks/NcellProduct.md
       - NTC DataPacks: datapacks/ntcProduct.md 
+  - State List: Services codes/statelist.md
+  - Bulk Service Lookup: Services codes/bulkservice.md
   - Changelog: Services codes/changelog.md
   - FAQ's: Services codes/faq.md
 

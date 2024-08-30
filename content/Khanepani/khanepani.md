@@ -1,185 +1,148 @@
-## **6\. Khanepani** 
+# **Khanepani**
 
-Type: Multi Step API  
-**Request: POST**  
-Khanepani Counters 
+### Khanepani Counters
 
-**URL : [{{base_url}}](https://services.khalti.com/api/servicegroup/details/worldlink/)/api/servicegroup/counters/khanepani/** 
+**URL:** `{{base_url}}/api/servicegroup/counters/khanepani/`  
+**Method:** ``POST``  
 
-Service Params   
-{  
-	“token”: \<token\>  
+**Request Body:**
+<pre><code class="json">
+{
+    "token": "token"
 }
+</code></pre>
 
-Regex:
-
-\[
-
-* {  
-  * name: "Customer Code",  
-  * slug: "",  
-  * pattern: "(\[a-zA-Z0-9\_\\-\]+)",  
-  * error\_message: "Invalid Customer Code",  
-* }
-
-\]
-
-Example  
-\<?php 
-
-$url \= "{{base_url}}/api/servicegroup/counters/khanepani/";   
-$args \= http\_build\_query(array(   
-		'token' \=\> '\<token-provided\>'  
-)); 
-
-\# Make the call using API.   
-$ch \= curl\_init();   
-curl\_setopt($ch, CURLOPT\_URL, $url);   
-curl\_setopt($ch, CURLOPT\_POST, 1);   
-curl\_setopt($ch, CURLOPT\_POSTFIELDS,$args);   
-curl\_setopt($ch, CURLOPT\_RETURNTRANSFER, 1); 
-
-// Response  
-$response \= curl\_exec($ch);   
-$status\_code \= curl\_getinfo($ch, CURLINFO\_HTTP\_CODE);   
-curl\_close($ch);   
-?\>
-
-Response:  
-{  
-  "counters": \[  
-	{  
-  	 "name": "Sandhikharka",  
-            "value": "268:sandhikharka-khanepani"  
-	},  
-	{  
-  	"name": "itahari",  
-  	"value": "3:itahari-khanepani"  
-	}  \],  
-  "status": true  
+**Response:**
+<pre><code class="json">
+{
+    "counters": [
+        {
+            "name": "Sandhikharka",
+            "value": "268:sandhikharka-khanepani"
+        },
+        {
+            "name": "Itahari",
+            "value": "3:itahari-khanepani"
+        }
+    ],
+    "status": true
 }
+</code></pre>
 
-Khanepani Details 
+**Description:**  
+Retrieve a list of available Khanepani counters.
 
-**URL : [{{base_url}}](https://services.khalti.com/api/servicegroup/details/worldlink/)/api/servicegroup/details/khanepani/**
+### Khanepani Details
 
-Service Params  
-**{**  
-	**‘month\_id’ : \< number\_select from 1 to 12 inclusive \>**  
-	**‘customer\_code’ : \< numeric value , eg : 12 \>**  
-	**‘counter’ : \< one of the ‘value’ fields from the response above (counter) e.g:**  
-    **268:sandhikharka-khanepani\>**  
-	**‘token’:\<Provided token\>**  
-**}**
+**URL:** `{{base_url}}/api/servicegroup/details/khanepani/`  
+**Method:** ``POST``  
 
-Example  
-\<?php 
-
-$url \= "{{base_url}}/api/servicegroup/details/khanepani/";   
-$args \= http\_build\_query(array(   
-		'token' \=\> '\<token-provided\>',  
-		‘month\_id’ \=\> ‘ 1 ‘  //For Baisakh,  
-		‘customer\_code’ \=\> ‘1235’,   
-		‘counter’ \=\> ‘216:khanepani’
-
-)); 
-
-\# Make the call using API.   
-$ch \= curl\_init();   
-curl\_setopt($ch, CURLOPT\_URL, $url);   
-curl\_setopt($ch, CURLOPT\_POST, 1);   
-curl\_setopt($ch, CURLOPT\_POSTFIELDS,$args);   
-curl\_setopt($ch, CURLOPT\_RETURNTRANSFER, 1); 
-
-// Response   
-$response \= curl\_exec($ch);   
-$status\_code \= curl\_getinfo($ch, CURLINFO\_HTTP\_CODE);   
-curl\_close($ch);   
-?\>  
-Response  
-{  
-	‘status’ : true,  
-	‘customer\_code’ : ‘1235’,  
-	‘customer\_name’ : ‘पुर्ण कुमार’,  
-	‘address’ : ‘इटहरी-6, संगीत चौक’,  
-	‘mobile\_number’ : ‘9841123456’  
-	‘current\_month\_dues’ : ‘3000’,  
-	‘current\_month\_discount’ : ‘50’,  
-	‘current\_month\_fine’ : ‘0’,  
-	‘total\_credit\_sales\_amount’ : ‘100’,   
-	‘total\_advance\_amount’ : ‘1000’,  
-	‘previous\_dues’ : ‘0’,  
-	‘total\_dues’ : ‘2950’  
+**Request Body:**
+<pre><code class="json">
+{
+    "month_id": "number (1 to 12 inclusive)",
+    "customer_code": "numeric value, e.g., 12",
+    "counter": "one of the 'value' fields from the response above (e.g., 268:sandhikharka-khanepani)",
+    "token": "Provided token"
 }
+</code></pre>
 
-Khanepani Service Charge
-
-**URL:** [{{base_url}}/api/servicegroup/servicecharge/khanepani/](http://uatservices.khalti.com/api/servicegroup/servicecharge/khanepani/)
-
-NOTE : khanepani service charge of Rs. 5 per transaction 
-
-Service Params:  
-{  
-	"counter":"\<\<Counter Name\>\>",  
-	"token":"{{token}}",  
-	"amount": \<\<Amount from detail fetch api\>\>  
+**Response:**
+<pre><code class="json">
+{
+    "status": true,
+    "customer_code": "1235",
+    "customer_name": "पुर्ण कुमार",
+    "address": "इटहरी-6, संगीत चौक",
+    "mobile_number": "9841123456",
+    "current_month_dues": "3000",
+    "current_month_discount": "50",
+    "current_month_fine": "0",
+    "total_credit_sales_amount": "100",
+    "total_advance_amount": "1000",
+    "previous_dues": "0",
+    "total_dues": "2950"
 }
+</code></pre>
 
-Example:  
-curl \--location '{{base_url}}/api/servicegroup/servicecharge/khanepani/' \\  
-\--data '{  
-	"counter":"67277:test-khanepani",  
-	"token":"cPULwOxpW8Ox2rssJZ5H",  
-	"amount": 60000  
-}'
+**Description:**  
+Fetch details for a specific Khanepani customer, including dues, discounts, and other relevant information.
 
-Response:  
-{  
-	"amount": 600,  
-	"service\_charge": 5,  
-	"status": true  
+### Khanepani Service Charge
+
+**URL:** `{{base_url}}/api/servicegroup/servicecharge/khanepani/`  
+
+**Note:**  
+Khanepani service charge is Rs. 5 per transaction.
+
+**Request Body:**
+<pre><code class="json">
+{
+    "counter": "Counter Name",
+    "token": "token",
+    "amount": "Amount from detail fetch API"
 }
+</code></pre>
 
-Khanepani Payment
-
-**URL : [{{base_url}}](https://services.khalti.com/api/servicegroup/details/worldlink/)/api/servicegroup/commit/khanepani/**
-
-Service Params  
-**{**  
-	**‘reference’ : \< unique value sent for each request \>**   
-	**‘customer\_code’ : \< numeric value , eg: 12 \>,**  
-	**‘counter’ : \<one of the ‘value’ fields from the response above (counter), e.g:**   
-**268:sandhikharka-khanepani\>**  
-	**‘amount’ : 5000**  
-**}’**
-
-**NOTE : The amount in payment API is without charge, charge amount will be deducted from the service account.** 
-
-
-### Response
-
-{  
-    "status": true,  
-    "state": "Success",  
-    "message": "Successfully Completed Transaction",  
-    "extra\_data": {},  
-    "detail": "Success",  
-    "credits\_consumed": 309,  
-    "credits\_available": 35456464.966469494,  
-    "id": 78897534  
+**Response:**
+<pre><code class="json">
+{
+    "amount": 600,
+    "service_charge": 5,
+    "status": true
 }
+</code></pre>
 
-**Incase for due amount** 
+**Description:**  
+Calculate the service charge for the specified amount. The service charge applies only to amounts greater than 500.
 
-{  
-    "status": true,  
-    "detail": {  
-   	 "message": "Successful Payment",  
-   	 "due\_amount": "1361"  
-    },  
-    "message": "Successfully Completed Transaction",  
-    "id": 181868,  
-    "extra\_data": {},  
-    "state": "Success",  
-    "due\_amount": "1361"
+### Khanepani Payment
+
+**URL:** `{{base_url}}/api/servicegroup/commit/khanepani/`  
+**Method:** ``POST``  
+
+**Request Body:**
+<pre><code class="json">
+{
+    "reference": "unique value sent for each request",
+    "customer_code": "numeric value, e.g., 12",
+    "counter": "one of the 'value' fields from the response above (e.g.268:sandhikharka-khanepani)",
+    "amount": 5000
 }
+</code></pre>
+
+**Note:**  
+The amount in the payment API is without the service charge; the charge amount will be deducted from the service account.
+
+**Response (Successful Payment):**
+<pre><code class="json">
+{
+    "status": true,
+    "state": "Success",
+    "message": "Successfully Completed Transaction",
+    "extra_data": {},
+    "detail": "Success",
+    "credits_consumed": 309,
+    "credits_available": 35456464.966469494,
+    "id": 78897534
+}
+</code></pre>
+
+**Response (Due Amount):**
+<pre><code class="json">
+{
+    "status": true,
+    "detail": {
+        "message": "Successful Payment",
+        "due_amount": "1361"
+    },
+    "message": "Successfully Completed Transaction",
+    "id": 181868,
+    "extra_data": {},
+    "state": "Success",
+    "due_amount": "1361"
+}
+</code></pre>
+
+**Description:**  
+Process the payment for the specified amount and handle due amounts accordingly.
