@@ -4,7 +4,7 @@ The Nepal Telecom API endpoint allows you to perform a single-step transaction. 
 
 ## API Details
 
-- **URL:** [https://uatservices.khalti.com/api/use/ntc/](https://uatservices.khalti.com/api/use/ntc/)
+- **URL:** [{{base_url}}/api/use/ntc/]({{base_url}}/api/use/ntc/)
 - **Type:** Single Step API
 - **Request Type:** POST
 

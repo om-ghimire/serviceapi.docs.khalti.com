@@ -8,6 +8,7 @@ nav:
         - Ncell: MobileTopup/ncell.md
   - Rc Card: Rc card/rccard.md
   - PSTN (Landline): PSTN/landline.md
+  - Electricity: Electricity/nea.md
   - Data Packs:
       - Ncell DataPacks: datapacks/NcellProduct.md
       - NTC DataPacks: datapacks/ntcProduct.md 
@@ -17,17 +18,6 @@ nav:
 theme:
   name: material
   custom_dir: overrides
-  features:
-    - content.code.annotate
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/weather-sunny
-        name: Switch to light mode
   favicon: "https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/images/favicon.png"
   icon:
     logo: "img/khalti_logo"
@@ -37,8 +27,8 @@ extra_css:
   - style/extra.css
 docs_dir: content  
 site_dir: docs
-repo_name: "khalti/serviceapi-docs.khalti.com"
-repo_url: "https://github.com/khalti/serviceapi-docs.khalti.com/"
+repo_name: "khalti/serviceapi.docs.khalti.com"
+repo_url: "https://github.com/khalti/serviceapi.docs.khalti.com/"
 edit_uri: "edit/master/content/"
 copyright: "Copyright &copy; 2024 Khalti Private Limited"
 
@@ -52,7 +42,7 @@ extra:
       link: "https://www.linkedin.com/company/khalti-digital-wallet"
     - icon: "fontawesome/brands/facebook"
       link: "https://facebook.com/khaltiofficial"
-    - icon: "fontawesome/brands/instagram"  # Corrected typo here
+    - icon: "fontawesome/brands/instagram"
       link: "https://www.instagram.com/khaltiofficial/"
 
 markdown_extensions:

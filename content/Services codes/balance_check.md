@@ -2,7 +2,7 @@
 
 ## Balance Check API
 
-- **URL:** [https://uatservices.khalti.com/api/balance](https://uatservices.khalti.com/api/balance)
+- **URL:** [{{base_url}}/api/balance]({{base_url}}/api/balance)
 - **Method:** GET
 
 ### Request Parameters
@@ -26,7 +26,7 @@
 
 ## Credits by Date API
 
-**URL**: ``https://uatservices.khalti.com/api/credits/bydate/``
+**URL**: ``{{base_url}}/api/credits/bydate/``
 
 **Method**: ``POST``
 
@@ -61,7 +61,7 @@
 
 # Credit Request API
 
-**URL**: ``https://uatservices.khalti.com/api/public/creditrequest/``
+**URL**: ``{{base_url}}/api/public/creditrequest/``
 
 **Method**: ``POST``
 

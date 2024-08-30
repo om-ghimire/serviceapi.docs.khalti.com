@@ -4,7 +4,7 @@
 
 The Ncell API endpoint allows you to perform a single-step transaction. This API requires a POST request and provides information about the success or failure of the transaction.
 
-**URL:** [https://uatservices.khalti.com/api/use/ncell/](https://services.khalti.com/api/use/ncell/)  
+**URL:** [{{base_url}}/api/use/ncell/](https://services.khalti.com/api/use/ncell/)  
 **Type:** Single Step API  
 **Method:** POST
 

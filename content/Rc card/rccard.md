@@ -7,7 +7,7 @@ The RC Card API allows you to process recharge operations for various service pr
 ### Endpoint
 
 **URL:**  
-`https://uatservices.khalti.com/api/use/<method>/`  
+`{{base_url}}/api/use/<method>/`  
 **Type:** Single Step API  
 **Request Method:** POST
 

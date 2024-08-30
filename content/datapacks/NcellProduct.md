@@ -11,7 +11,7 @@ The Ncell Data Pack API provides two main functionalities:
 ### Get Packages API
 
 **Request URL:**  
-`https://uatservices.khalti.com/api/servicegroup/getpackages/ncell-product/`
+`{{base_url}}/api/servicegroup/getpackages/ncell-product/`
 
 **Request Method:** POST
 
@@ -82,7 +82,7 @@ The Ncell Data Pack API provides two main functionalities:
 ## Ncell Data Pack Payment API
 
 ### Request URL:
-  ```https://uatservices.khalti.com/api/use/ncell-product/```
+  ```{{base_url}}/api/use/ncell-product/```
 
 ***Request Method***: POST
 

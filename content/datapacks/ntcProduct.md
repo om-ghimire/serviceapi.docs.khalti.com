@@ -11,7 +11,7 @@ The NTC Data Pack API allows you to:
 ### Get Packages API
 
 **Request URL:**  
-`https://uatservices.khalti.com/api/servicegroup/getpackages/ntc-package/`
+`{{base_url}}/api/servicegroup/getpackages/ntc-package/`
 
 **Request Method:** POST
 
@@ -248,7 +248,7 @@ The NTC Data Pack API allows you to:
 ##  Payment API
 
 **Request URL:**
-``https://uatservices.khalti.com/api/servicegroup/use/ntc-package/``
+``{{base_url}}/api/servicegroup/use/ntc-package/``
 
 **Request Method:** `POST`
 
