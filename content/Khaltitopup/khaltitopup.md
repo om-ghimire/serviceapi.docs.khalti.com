@@ -2,7 +2,7 @@
 
 ## API Endpoint
 
-- **URL**: [{{base_url}}/api/use/khalti-topup/]({{base_url}}/api/use/khalti-topup/)
+- **URL**: ``{{base_url}}/api/use/khalti-topup/``
 - **Type**: Single Step API
 - **METHOD**: POST
 

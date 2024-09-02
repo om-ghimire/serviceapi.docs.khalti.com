@@ -10,9 +10,28 @@ nav:
   - PSTN (Landline): PSTN/landline.md
   - Electricity: Electricity/nea.md
   - Khanepani: Khanepani/khanepani.md
+
+  - Insurance: 
+      - Surya Life Insurance: Insurance/Suryalife.md
+      - Reliance Insurance: Insurance/Reliance Insurance/reliance_insurance.md
+      - Arhant Non-Life Insurances: Insurance/Arhant Insurance/non_life.md
+      - Sun Life Insurance: Insurance/Sunlife/sunlife.md
+      - Prudential Insurance: Insurance/prudential/prudential.md
+      - Neco Insurance:  Insurance/neco_insurance.md
+      - Sagarmatha Insurance: Insurance/sagarmatha_insurance.md
   - Data Packs:
       - Ncell DataPacks: datapacks/NcellProduct.md
-      - NTC DataPacks: datapacks/ntcProduct.md 
+      - NTC DataPacks: datapacks/ntcProduct.md
+  - Community Electricity:
+    - Himchuli Electricity: Electricity/Himchuli.md
+    - Watermark Electricity: Electricity/watermark.md
+    - Dreamer Electricity: Electricity/dreamer.md
+    - Softlab Electricity: Electricity/softlab.md
+  - Cable Car: Cable Car/cablecar.md
+  - Ride:
+      - CABTM: Ride/cabtm.md
+      - Tottle: Ride/tootle.md
+  - Service LookUp API: Services codes/lookup.md
   - State List: Services codes/statelist.md
   - Bulk Service Lookup: Services codes/bulkservice.md
   - Changelog: Services codes/changelog.md
