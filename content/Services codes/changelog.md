@@ -1,99 +1,102 @@
 ## **Change Log**
+**Version 6.4 September 2 2024**
+
+  * Updated the docs to new format
 
 **Version 6.3 August 12 2024**
 
-* * Updated Ncell Topup API. Please refer to [**2.2 Ncell**](/MobileTopup/ncell)
+* Updated Ncell Topup API. Please refer to [**2.2 Ncell**](/MobileTopup/ncell)
 
 **Version 6.2 July 10 2024**
 
-* Updated Ncell data API. Please refer to [18\. Ncell Data Pack](/datapacks/NcellProduct)  
-* Updated Ntc data API. Please refer to [19\. NTC Data Pack](/datapacks/ntcProduct)
+* Updated Ncell data API. Please refer to 18\. Ncell Data Pack   
+* Updated Ntc data API. Please refer to 19\. NTC Data Pack
 
 
 **Version 6.1 June 24 2024**
 
-* Updated Shikhar Insurance API. Please refer to [11.26 Arhant Non Life Insurance](\#11.26-arhant-non-life-insurances)
+* Updated Shikhar Insurance API. Please refer to 11.26 Arhant Non Life Insurance
 
 
 **Version 6.0 June 18 2024**
 
-* Updated NT FTTH API Document. [8.21. NT FTTH](\#8.21.-nt-ftth)   There is no change in API, updated the Note from “Initial 6 characters are always constant \- ie. 100000” to “Initial 5 characters are always constant \- ie. 10000”.
+* Updated NT FTTH API Document.8.21. NT FTTH   There is no change in API, updated the Note from “Initial 6 characters are always constant \- ie. 100000” to “Initial 5 characters are always constant \- ie. 10000”.
 
 
 **Version 5.9 June 11 2024**
 
-* Added New Service Wifi nepal in [8.44 Wifi Nepal](\#8.44.-wifi-nepal)  
-* Updated the Kaspersky API in [10.1. Kaspersky API](\#10.1.-kaspersky-api)
+* Added New Service Wifi nepal in 8.44 Wifi Nepal  
+* Updated the Kaspersky API in 10.1. Kaspersky API
 
 
 **Version 5.8 May 31 2024**
 
-* Shifted Internet VNS from 8.42 [Vns : vns](\#vns-:-vns-1) to [8.25. HashCNet V2](\#8.25.-hashcnet-v2) VNS 
+* Shifted Internet VNS from 8.42 Vns : vns to 8.25. HashCNet V2 
 
 
 **Version 5.7 April 25 2024**
 
-* Updated ticket download API for Service Cable car in [21\. Cable Car](\#21.-cable-car)
+* Updated ticket download API for Service Cable car in 21\. Cable Car
 
 
 **Version 5.6 March 26 2024**
 
-* Added New Service Cable car in [21\. Cable Car](\#21.-cable-car)
+* Added New Service Cable car in 21\. Cable Car
 
 
 **Version 5.5 March 18 2024**
 
-* Updated the package response in [8.43 Dish Home](\#8.43.-dish-home)
+* Updated the package response in 8.43 Dish Home
 
 
 **Version 5.4 Feb 18 2024**
 
-* Added the [FAQ Section](\#frequently-asked-questions)  
-* Updated the typo mistakes in [8.43 Dish Home](\#8.43.-dish-home)
+* Added the FAQ Section  
+* Updated the typo mistakes in 8.43 Dish Home
 
 
 **Version 5.3 Feb 15 2024**
 
-* Updated the typo mistakes in [8.43 Dish Home](\#8.43.-dish-home)
+* Updated the typo mistakes in 8.43 Dish Home
 
 **Version 5.2 Feb 8 2024**
 
-* Updated the Dish home API [8.43 Dish Home](\#8.43.-dish-home)  
-  Removed [8.40 Dishhome combo](\#8.40.-dish-home-combo-(deprecated)) , [8.38. Dishhome ftth](\#8.38-dish-home-ftth-(deprecated)),  [7.1 Dishhome](\#7.1-dishhome(deprecated))
+* Updated the Dish home API 8.43 Dish Home  
+  Removed 8.40 Dishhome combo , 8.38. Dishhome ftth,  7.1 Dishhome
 
 **Version 5.1 Jan 28 2024**
 
-* Updated the typo mistakes in [20.4 Softlab Electricity](\#20.4-softlab-electricity)
+* Updated the typo mistakes in 20.4 Softlab Electricity
 
 **Version 5.0 Jan 18 2024**
 
-* Added Watermark electricity in the Community Electricity Section. [20.2 Watermark Electricity](\#20.2-watermark-electricity)  
-* Added Dreamer electricity in the Community Electricity Section. [20.3 Dreamer Electricity](\#20.3-dreamer-electricity)  
-* Added Softlab electricity in the Community Electricity Section. [20.4 SoftLab Electricity](\#20.4-softlab-electricity)
+* Added Watermark electricity in the Community Electricity Section. 20.2 Watermark Electricity  
+* Added Dreamer electricity in the Community Electricity Section. 20.3 Dreamer Electricity  
+* Added Softlab electricity in the Community Electricity Section. 20.4 SoftLab Electricity
 
 **Version 4.9 Jan 10 2024**
 
-* Updated the typo mistakes. in [11.18. Arhant Life Insurance](\#11.18.-arhant-life-insurance)  
-* Added Nepal Insurance in insurance section (11.23) [Nepal Insurance](\#11.23.-nepal-insurance)  
-* Added Rastriya Beema Sasthan in insurance section (11.24) [Rastriya Beema Sansthan](\#11.24.-rastriya-beema-sansthan)  
-* Added Surya Jyoti Loan Repayment in insurance section (11.25) [Surya Jyoti Loan Repayment](\#11.25.-surya-jyoti-loan-repayment)  
-* Added Sun Life Insurance in insurance section (11.26) [Sun Life Insurance](\#11.26.-sun-life-insurance)
+* Updated the typo mistakes. in  11.18. Arhant Life Insurance  
+* Added Nepal Insurance in insurance section (11.23)  Nepal Insurance
+* Added Rastriya Beema Sasthan in insurance section (11.24)  Rastriya Beema Sansthan  
+* Added Surya Jyoti Loan Repayment in insurance section (11.25)  Surya Jyoti Loan Repayment  
+* Added Sun Life Insurance in insurance section (11.26)  Sun Life Insurance
 
 **Version 4.8 Nov 02 2023**
 
-* Clear TV API is obsolete now. Subisu API will be used for clear tv payment. [8.2 Subisu New](\#8.2-subisu-new)
+* Clear TV API is obsolete now. Subisu API will be used for clear tv payment.  8.2 Subisu New
 
 **Version 4.7 Oct 11 2023**
 
-* Ime Life Insurance API has been updated, Please refer to [Ime Life Insurance : ime-life-insurance](\#ime-life-insurance-:-ime-life-insurance) (11.18) for new API.  
+* Ime Life Insurance API has been updated, Please refer to  Ime Life Insurance : ime-life-insurance (11.18) for new API.  
 
 **Version 4.7 Oct 9 2023**
 
-* United insurance and Ajod insurance API merge. Please use the United insurance API. [United Insurance : united-insurance](\#united-insurance-:-united-insurance)
+* United insurance and Ajod insurance API merge. Please use the United insurance API.  United Insurance : united-insurance
 
 **Version 4.6 Sept 21 2023**
 
-* Added ultranet to 8.25 [Ultra Net : ultra-net](\#ultra-net-:-ultra-net)
+* Added ultranet to 8.25 Ultra Net
 
 **Version 4.5 Sept 17 2023**
 

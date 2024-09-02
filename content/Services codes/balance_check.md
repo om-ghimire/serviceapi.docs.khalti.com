@@ -2,7 +2,7 @@
 
 ## Balance Check API
 
-- **URL:** [{{base_url}}/api/balance]({{base_url}}/api/balance)
+- **URL:** {{base_url}}/api/balance
 - **Method:** GET
 
 ### Request Parameters
