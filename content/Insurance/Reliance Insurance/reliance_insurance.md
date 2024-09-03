@@ -1,4 +1,4 @@
-# **Reliance Insurance API**
+# **Sanima Insurance API**
 
 **Note**: Reliance and Sanima Life Insurance have merged. Please use the Reliance Life Insurance API.
 
@@ -22,7 +22,7 @@ The Reliance Insurance API facilitates interactions with Reliance Insurance serv
 
 <pre><code class="json">
 {
-  "token": "<provided_token>",
+  "token": "provided_token",
   "policy_no": "301000003781",
   "dob": "YYYY-MM-DD"
 }
