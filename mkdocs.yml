@@ -47,11 +47,14 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
   - style/custom.css
   - style/extra.css
-docs_dir: content  
+docs_dir: content 
+features:
+    - content.code.annotate
+
 site_dir: docs
 repo_name: "khalti/serviceapi.docs.khalti.com"
 repo_url: "https://github.com/khalti/serviceapi.docs.khalti.com/"
-edit_uri: "edit/master/content/"
+edit_uri: "edit/main/content/"
 copyright: "Copyright &copy; 2024 Khalti Private Limited"
 
 extra:
