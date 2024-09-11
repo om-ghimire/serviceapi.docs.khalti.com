@@ -54,8 +54,6 @@ extra_css:
   - style/custom.css
   - style/extra.css
 docs_dir: content 
-features:
-    - content.code.annotate
 
 site_dir: docs
 repo_name: "khalti/serviceapi.docs.khalti.com"
