@@ -10,7 +10,13 @@ nav:
   - PSTN (Landline): PSTN/landline.md
   - Electricity: Electricity/nea.md
   - Khanepani: Khanepani/khanepani.md
-
+  - TV :
+    - SimTV: TV/simtv.md
+    - Max Tv: TV/maxtv.md
+    - Prabhu Tv: TV/Prabhutv.md
+    - P & G Network: TV/p&g.md
+    - Jagriti Cable: TV/jagrititv.md
+    - Times: TV/times.md
   - Insurance: 
       - Surya Life Insurance: Insurance/Suryalife.md
       - Sanima Insurance: Insurance/Reliance Insurance/reliance_insurance.md
@@ -47,11 +53,14 @@ extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css
   - style/custom.css
   - style/extra.css
-docs_dir: content  
+docs_dir: content 
+features:
+    - content.code.annotate
+
 site_dir: docs
 repo_name: "khalti/serviceapi.docs.khalti.com"
 repo_url: "https://github.com/khalti/serviceapi.docs.khalti.com/"
-edit_uri: "edit/master/content/"
+edit_uri: "edit/main/content/"
 copyright: "Copyright &copy; 2024 Khalti Private Limited"
 
 extra:
