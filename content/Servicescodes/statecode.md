@@ -2,33 +2,16 @@
 
 ## State List
 
-1. **Queued**  
-   - **Description**: Transaction in unconfirmed state.  
-   - **Action**: Need to hold client amount.
+| **State**      | **Description**                                        | **Action Required**               |
+|----------------|--------------------------------------------------------|----------------------------------|
+| **Queued**     | Transaction in unconfirmed state.                      | Need to hold client amount.       |
+| **Expired**    | Transaction not possible.                             | Refund client amount.            |
+| **Processing** | Transaction in unconfirmed state.                     | Need to hold client amount.       |
+| **Error**      | Transaction errored.                                  | Refund client amount.            |
+| **Status Error** | Transaction errored.                                | Refund client amount.            |
+| **Success**    | Transaction Successful.                                | Deduct client amount.            |
+| **Failed**     | Transaction errored.                                  | Refund client amount.            |
 
-2. **Expired**  
-   - **Description**: Transaction not possible.  
-   - **Action**: Refund client amount.
-
-3. **Processing**  
-   - **Description**: Transaction in unconfirmed state.  
-   - **Action**: Need to hold client amount.
-
-4. **Error**  
-   - **Description**: Transaction errored.  
-   - **Action**: Refund client amount.
-
-5. **Status Error**  
-   - **Description**: Transaction errored.  
-   - **Action**: Refund client amount.
-
-6. **Success**  
-   - **Description**: Transaction Successful.  
-   - **Action**: Deduct client amount.
-
-7. **Failed**  
-   - **Description**: Transaction Errored.  
-   - **Action**: Refund client amount.
 
 ## Response Status Handling
 

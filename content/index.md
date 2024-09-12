@@ -6,7 +6,7 @@
 
 ## *Last Update 12 August, 2024*
 
-**Check the [Change Log]( Services codes/changelog.md) here.**
+**Check the [Change Log]( Servicescodes/changelog.md) here.**
 
 
 ## **Introduction**

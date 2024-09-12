@@ -1,15 +1,15 @@
 site_name: Khalti Services Documentation
 nav:
   - Introduction: index.md
-  - Service Layer State: Services codes/statecode.md
+  - Service Layer State: Servicescodes/statecode.md
   - Khalti Topup: Khaltitopup/khaltitopup.md
   - Mobile TopUp:
         - Nepal Telecom: MobileTopup/nepal_telecom.md
         - Ncell: MobileTopup/ncell.md
-  - Rc Card: Rc card/rccard.md
-  - PSTN (Landline): PSTN/landline.md
   - Electricity: Electricity/nea.md
+  - PSTN (Landline): PSTN/landline.md
   - Khanepani: Khanepani/khanepani.md
+ 
   - TV :
     - SimTV: TV/simtv.md
     - Max Tv: TV/maxtv.md
@@ -17,6 +17,14 @@ nav:
     - P & G Network: TV/p&g.md
     - Jagriti Cable: TV/jagrititv.md
     - Times: TV/times.md
+  - Internet:
+    - Worldlink: Internet/worldlink.md
+    - Vianet: Internet/vianet.md
+    - Adsl: Internet/adsl.md
+    - Subisu: Internet/subisu.md
+    - Classic Tech: Internet/classictech.md
+    - Times Internet: Internet/timesinternet.md
+    - Arrownet: Internet/arrownet.md
   - Insurance: 
       - Surya Life Insurance: Insurance/Suryalife.md
       - Sanima Insurance: Insurance/Reliance Insurance/reliance_insurance.md
@@ -25,6 +33,9 @@ nav:
       - Prudential Insurance: Insurance/prudential/prudential.md
       - Neco Insurance:  Insurance/neco_insurance.md
       - Sagarmatha Insurance: Insurance/sagarmatha_insurance.md
+      - Surya Jyoti Loan Repayment: Insurance/suryajoytiloan.md
+      - Rastriya Beema Sansthan: Insurance/rastriyabeema.md
+  - Rc Card: Rc card/rccard.md
   - Data Packs:
       - Ncell DataPacks: datapacks/NcellProduct.md
       - NTC DataPacks: datapacks/ntcProduct.md
@@ -37,11 +48,11 @@ nav:
   - Ride:
       - CABTM: Ride/cabtm.md
       - Tottle: Ride/tootle.md
-  - Service LookUp API: Services codes/lookup.md
-  - State List: Services codes/statelist.md
-  - Bulk Service Lookup: Services codes/bulkservice.md
-  - Changelog: Services codes/changelog.md
-  - FAQ's: Services codes/faq.md
+  - Service LookUp API: Servicescodes/lookup.md
+  - Bulk Service Lookup: Servicescodes/bulkservice.md
+  - Changelog: Servicescodes/changelog.md
+  - FAQ's: Servicescodes/faq.md
+
 
 theme:
   name: material
@@ -54,7 +65,6 @@ extra_css:
   - style/custom.css
   - style/extra.css
 docs_dir: content 
-
 site_dir: docs
 repo_name: "khalti/serviceapi.docs.khalti.com"
 repo_url: "https://github.com/khalti/serviceapi.docs.khalti.com/"
