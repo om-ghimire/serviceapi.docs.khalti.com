@@ -9,7 +9,7 @@ nav:
   - Electricity: Electricity/nea.md
   - PSTN (Landline): PSTN/landline.md
   - Khanepani: Khanepani/khanepani.md
-  - Rc Card: Rc card/rccard.md
+ 
   - TV :
     - SimTV: TV/simtv.md
     - Max Tv: TV/maxtv.md
@@ -35,6 +35,7 @@ nav:
       - Sagarmatha Insurance: Insurance/sagarmatha_insurance.md
       - Surya Jyoti Loan Repayment: Insurance/suryajoytiloan.md
       - Rastriya Beema Sansthan: Insurance/rastriyabeema.md
+  - Rc Card: Rc card/rccard.md
   - Data Packs:
       - Ncell DataPacks: datapacks/NcellProduct.md
       - NTC DataPacks: datapacks/ntcProduct.md
@@ -51,6 +52,7 @@ nav:
   - Bulk Service Lookup: Servicescodes/bulkservice.md
   - Changelog: Servicescodes/changelog.md
   - FAQ's: Servicescodes/faq.md
+
 
 theme:
   name: material
