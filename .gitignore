@@ -2,7 +2,6 @@ mkdocs-material/
 .env/
 build.sh
 *.orig
-
 .idea/
 .vscode
 .venv
