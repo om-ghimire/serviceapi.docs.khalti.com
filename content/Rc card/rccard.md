@@ -10,7 +10,7 @@ The RC Card API allows you to process recharge operations for various service pr
 `{{base_url}}/api/use/<method>/`  
 **Type:** Single Step API  
 **Request Method:** POST
-
+ 
 ### Methods
 
 - **dishhome-erc**
