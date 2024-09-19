@@ -10,9 +10,7 @@
 2. ##### **United Insurance**
    - **Service Slug:** `united-ajod-insurance`
 
-**API for Retrieving Proforma Details**
-
-**Endpoint:** Retrieve Proforma Details: {{base_url}}/api/servicegroup/details/arhant-non-life-insurance/
+**API for Retrieving Proforma Details** ``{{base_url}}/api/servicegroup/details/arhant-non-life-insurance/``
 
 **Method:** POST
 

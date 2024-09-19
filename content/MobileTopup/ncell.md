@@ -1,4 +1,4 @@
-# Ncell API Documentation
+# Ncell API
 
 ## Overview
 
