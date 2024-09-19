@@ -26,15 +26,27 @@ nav:
     - Times Internet: Internet/timesinternet.md
     - Arrownet: Internet/arrownet.md
   - Insurance: 
-      - Surya Life Insurance: Insurance/Suryalife.md
-      - Sanima Insurance: Insurance/Reliance Insurance/reliance_insurance.md
-      - Arhant Non-Life Insurances: Insurance/Arhant Insurance/non_life.md
-      - Sun Life Insurance: Insurance/Sunlife/sunlife.md
-      - Prudential Insurance: Insurance/prudential/prudential.md
-      - Neco Insurance:  Insurance/neco_insurance.md
-      - Sagarmatha Insurance: Insurance/sagarmatha_insurance.md
-      - Surya Jyoti Loan Repayment: Insurance/suryajoytiloan.md
-      - Rastriya Beema Sansthan: Insurance/rastriyabeema.md
+      - Non life Insurances:
+          - Arhant Non-Life Insurances: Insurance/Arhant Insurance/non_life.md 
+          - Prudential Insurance: Insurance/prudential/prudential.md
+          - Neco Insurance:  Insurance/neco_insurance.md
+          - Sagarmatha Lumbini Insurance: Insurance/sagarmatha_insurance.md
+          - Nepal Non Life Insurance: Insurance/nepal_non_life.md
+  
+      - Life Insurances:
+        - Arhant Life Insurance : Insurance\Arhant Insurance\life.md 
+        - Surya Life Insurance: Insurance/surya/Suryalife.md
+        - Sanima Insurance: Insurance/Reliance Insurance/reliance_insurance.md    
+        - Sun Life Insurance: Insurance/Sunlife/sunlife.md
+        - Rastriya Beema Sansthan: Insurance/rastriyabeema.md
+        - Surya Jyoti Loan Repayment: Insurance/suryajoytiloan.md
+        - Reliable Insurance: Insurance\Reliable_life.md
+        - Citizen Life Insurance: Insurance\Citizen\citizen.md
+        - Surya Life Insurance First Payment:  Insurance\surya\surya_life_insurance.md
+        - IME General Insurance: Insurance\ime\ime_general.md
+        - Prabhu Life: Insurance\prabhu_life.md
+        - Nepal Life Insurance: Insurance\Nepal\nepal_Life_Insurace.md
+        
   - Rc Card: Rc card/rccard.md
   - Data Packs:
       - Ncell DataPacks: datapacks/NcellProduct.md
@@ -48,6 +60,7 @@ nav:
   - Ride:
       - CABTM: Ride/cabtm.md
       - Tottle: Ride/tootle.md
+  - Bluebook: bluebook/bluebook.md
   - Service LookUp API: Servicescodes/lookup.md
   - Bulk Service Lookup: Servicescodes/bulkservice.md
   - Changelog: Servicescodes/changelog.md
