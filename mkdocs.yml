@@ -34,18 +34,18 @@ nav:
           - Nepal Non Life Insurance: Insurance/nepal_non_life.md
   
       - Life Insurances:
-        - Arhant Life Insurance : Insurance\Arhant Insurance\life.md 
+        - Arhant Life Insurance : Insurance/Arhant Insurance/life.md 
         - Surya Life Insurance: Insurance/surya/Suryalife.md
         - Sanima Insurance: Insurance/Reliance Insurance/reliance_insurance.md    
         - Sun Life Insurance: Insurance/Sunlife/sunlife.md
         - Rastriya Beema Sansthan: Insurance/rastriyabeema.md
         - Surya Jyoti Loan Repayment: Insurance/suryajoytiloan.md
-        - Reliable Insurance: Insurance\Reliable_life.md
-        - Citizen Life Insurance: Insurance\Citizen\citizen.md
-        - Surya Life Insurance First Payment:  Insurance\surya\surya_life_insurance.md
-        - IME General Insurance: Insurance\ime\ime_general.md
-        - Prabhu Life: Insurance\prabhu_life.md
-        - Nepal Life Insurance: Insurance\Nepal\nepal_Life_Insurace.md
+        - Reliable Insurance: Insurance/Reliable_life.md
+        - Citizen Life Insurance: Insurance/Citizen/citizen.md
+        - Surya Life Insurance First Payment:  Insurance/surya/surya_life_insurance.md
+        - IME General Insurance: Insurance/ime/ime_general.md
+        - Prabhu Life: Insurance/prabhu_life.md
+        - Nepal Life Insurance: Insurance/Nepal/nepal_Life_Insurace.md
         
   - Rc Card: Rc card/rccard.md
   - Data Packs:
