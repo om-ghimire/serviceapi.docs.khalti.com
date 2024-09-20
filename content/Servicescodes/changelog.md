@@ -5,7 +5,7 @@
 
 **Version 6.3 August 12 2024**
 
-* Updated Ncell Topup API. Please refer to [**2.2 Ncell**](/MobileTopup/ncell)
+* Updated Ncell Topup API. Please refer to 2.2 Ncell
 
 **Version 6.2 July 10 2024**
 
