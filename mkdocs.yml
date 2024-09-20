@@ -13,18 +13,32 @@ nav:
   - TV :
     - SimTV: TV/simtv.md
     - Max Tv: TV/maxtv.md
+    - Dishhome: Internet/dishhome.md
     - Prabhu Tv: TV/Prabhutv.md
     - P & G Network: TV/p&g.md
     - Jagriti Cable: TV/jagrititv.md
     - Times: TV/times.md
+
   - Internet:
     - Worldlink: Internet/worldlink.md
     - Vianet: Internet/vianet.md
     - Adsl: Internet/adsl.md
+    - Dishhome: Internet/dishhome.md
     - Subisu: Internet/subisu.md
     - Classic Tech: Internet/classictech.md
+    - Wifi Nepal: Internet/wifi-nepal.md
     - Times Internet: Internet/timesinternet.md
     - Arrownet: Internet/arrownet.md
+    - Virtual Network: Internet/Virtual-network.md
+    - Web Network: Internet/web-network.md
+    - Royal Network: Internet/royal-network.md
+    - Techminds: Internet/techminds.md
+    - East Link : Internet/eastlink.md
+    - Metrolink: Internet/metrolink.md
+    - Infonet Communication: Internet/infonet.md
+    - Pokhara Internet: Internet/pokhara-internet.md
+    - Nijgad Cable: Internet/nijgad_cable.md
+ 
   - Insurance: 
       - Non life Insurances:
           - Arhant Non-Life Insurances: Insurance/Arhant Insurance/non_life.md 
@@ -51,16 +65,28 @@ nav:
   - Data Packs:
       - Ncell DataPacks: datapacks/NcellProduct.md
       - NTC DataPacks: datapacks/ntcProduct.md
+
   - Community Electricity:
     - Himchuli Electricity: Electricity/Himchuli.md
     - Watermark Electricity: Electricity/watermark.md
     - Dreamer Electricity: Electricity/dreamer.md
     - Softlab Electricity: Electricity/softlab.md
+
   - Cable Car: Cable Car/cablecar.md
+
+  - Antivirus:
+      - Eset Antivirus: antivirus/eset.md
+      - K7 Antivirus: antivirus/k7.md
+      - Wardwiz Antivirus: antivirus/wardwiz.md
+      - Mcafee Antivirus: antivirus/mcafee.md
+
   - Ride:
       - CABTM: Ride/cabtm.md
       - Tottle: Ride/tootle.md
+
   - Bluebook: bluebook/bluebook.md
+
+  - Service Balance Check: Servicescodes/balance_check.md
   - Service LookUp API: Servicescodes/lookup.md
   - Bulk Service Lookup: Servicescodes/bulkservice.md
   - Changelog: Servicescodes/changelog.md
