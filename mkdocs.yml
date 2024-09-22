@@ -27,6 +27,7 @@ nav:
     - Subisu: Internet/subisu.md
     - Classic Tech: Internet/classictech.md
     - Wifi Nepal: Internet/wifi-nepal.md
+    - Broadlink: Internet/broadlink.md
     - Times Internet: Internet/timesinternet.md
     - Arrownet: Internet/arrownet.md
     - Virtual Network: Internet/Virtual-network.md
@@ -38,7 +39,15 @@ nav:
     - Infonet Communication: Internet/infonet.md
     - Pokhara Internet: Internet/pokhara-internet.md
     - Nijgad Cable: Internet/nijgad_cable.md
- 
+    - Net Max: Internet/netmax.md
+    - Dolfin Internet: Internet/dolfin-internet.md
+    - NtFtth : Internet/ntftth.md
+    - HashCNet V1: Internet/hashcnet/v1.md
+    - HashCNet V2: Internet/hashcnet/v2.md
+    - Fibertel Fibernet: Internet/Fibertel.md
+    - Rapid Unique Net: Internet/rapidapi.md
+    - GRS Internet: Internet/grs-internet.md
+    - Infonet Technology: Internet/infonet.md
   - Insurance: 
       - Non life Insurances:
           - Arhant Non-Life Insurances: Insurance/Arhant Insurance/non_life.md 
@@ -46,6 +55,7 @@ nav:
           - Neco Insurance:  Insurance/neco_insurance.md
           - Sagarmatha Lumbini Insurance: Insurance/sagarmatha_insurance.md
           - Nepal Non Life Insurance: Insurance/nepal_non_life.md
+          # - Insurance: Insurance/Himalayan Insurance/hg-general-insurance.md
   
       - Life Insurances:
         - Arhant Life Insurance : Insurance/Arhant Insurance/life.md 
