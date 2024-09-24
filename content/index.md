@@ -2,9 +2,9 @@
 # **Khalti Services Documentation**
 
 
-## *Version 6.3*
+## *Version 6.4*
 
-## *Last Update 12 August, 2024*
+## *Last Update 24 September, 2024*
 
 **Check the [Change Log]( Servicescodes/changelog.md) here.**
 
@@ -31,10 +31,4 @@ We provide REST API for consumption of services. Our single API serves all the s
 ---
 
 
-
-<div style="text-align: right;">
-  <a href="MobileTopup/nepal_telecom/" class="btn btn-primary" style="text-decoration: none; color: inherit;">
-    Next <i class="fas fa-chevron-right"></i>
-  </a>
-</div>
 

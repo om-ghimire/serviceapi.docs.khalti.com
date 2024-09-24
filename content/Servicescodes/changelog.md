@@ -1,7 +1,11 @@
 ## **Change Log**
-**Version 6.4 September 2 2024**
 
-  * Updated the docs to new format
+**Version 6.5 September 24 2024**
+
+  * Added Nettv in Tv Section
+**Version 6.4 September 12 2024**
+
+  * Updated Docs
 
 **Version 6.3 August 12 2024**
 
