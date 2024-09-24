@@ -3,7 +3,7 @@
 ## API Endpoint
 
 - **URL**: ``{{base_url}}/api/use/khalti-topup/``
-- **Type**: Single Step API
+- **TYPE**: Single Step API
 - **METHOD**: POST
 
 ## Service Parameters
