@@ -6,6 +6,11 @@ nav:
   - Mobile TopUp:
         - Nepal Telecom: MobileTopup/nepal_telecom.md
         - Ncell: MobileTopup/ncell.md
+  - Data Packs:
+      - Ncell DataPacks: datapacks/NcellProduct.md
+      - NTC DataPacks: datapacks/ntcProduct.md
+
+      
   - Electricity: Electricity/nea.md
   - PSTN (Landline): PSTN/landline.md
   - Khanepani: Khanepani/khanepani.md
@@ -24,6 +29,7 @@ nav:
     - Worldlink: Internet/worldlink.md
     - Vianet: Internet/vianet.md
     - Adsl: Internet/adsl.md
+    - NTFTTH : Internet/ntftth.md
     - Dishhome: Internet/dishhome.md
     - Subisu: Internet/subisu.md
     - Classic Tech: Internet/classictech.md
@@ -42,13 +48,22 @@ nav:
     - Nijgad Cable: Internet/nijgad_cable.md
     - Net Max: Internet/netmax.md
     - Dolfin Internet: Internet/dolfin-internet.md
-    - NtFtth : Internet/ntftth.md
     - HashCNet V1: Internet/hashcnet/v1.md
     - HashCNet V2: Internet/hashcnet/v2.md
     - Fibertel Fibernet: Internet/Fibertel.md
     - Rapid Unique Net: Internet/rapidapi.md
     - GRS Internet: Internet/grs-internet.md
     - Infonet Technology: Internet/infonet.md
+    - Merosoft: Internet/merosoft.md
+    - Konnect: Internet/konnect.md
+    - Kriti Darshan: Internet/kriti-darshan.md
+    - Chitrawan Unique Net: Internet/chitrawan.md
+    - Airlink Communication: Internet/airlink.md
+    - 3G Vision: Internet/3g-vision.md
+    - First Link: Internet/first-link.md
+    - Sky Broadband: Internet/sky-broadband.md
+    
+
   - Insurance: 
       - Non life Insurances:
           - Arhant Non-Life Insurances: Insurance/Arhant Insurance/non_life.md 
@@ -56,7 +71,7 @@ nav:
           - Neco Insurance:  Insurance/neco_insurance.md
           - Sagarmatha Lumbini Insurance: Insurance/sagarmatha_insurance.md
           - Nepal Non Life Insurance: Insurance/nepal_non_life.md
-          # - Insurance: Insurance/Himalayan Insurance/hg-general-insurance.md
+          - Insurance: Insurance/Himalayan Insurance/hg-general-insurance.md
   
       - Life Insurances:
         - Arhant Life Insurance : Insurance/Arhant Insurance/life.md 
@@ -73,9 +88,7 @@ nav:
         - Nepal Life Insurance: Insurance/Nepal/nepal_Life_Insurace.md
         
   - Rc Card: Rc card/rccard.md
-  - Data Packs:
-      - Ncell DataPacks: datapacks/NcellProduct.md
-      - NTC DataPacks: datapacks/ntcProduct.md
+
 
   - Community Electricity:
     - Himchuli Electricity: Electricity/Himchuli.md
@@ -86,10 +99,12 @@ nav:
   - Cable Car: Cable Car/cablecar.md
 
   - Antivirus:
+      - Kaspersky Antivirus: antivirus/kaspersky.md
       - Eset Antivirus: antivirus/eset.md
       - K7 Antivirus: antivirus/k7.md
       - Wardwiz Antivirus: antivirus/wardwiz.md
       - Mcafee Antivirus: antivirus/mcafee.md
+
 
   - Ride:
       - CABTM: Ride/cabtm.md

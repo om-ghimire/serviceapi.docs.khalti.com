@@ -3,7 +3,7 @@
 ## API Endpoint
 
 - **URL**: ``{{base_url}}/api/use/khalti-topup/``
-- **Type**: Single Step API
+- **TYPE**: Single Step API
 - **METHOD**: POST
 
 ## Service Parameters
@@ -37,7 +37,7 @@
         "error_message": "Invalid mobile number"
     },
     {
-        "name": "NCell",
+        "name": "Ncell",
         "slug": "ncell",
         "pattern": "(9[8][0-2][0-9]{7})",
         "error_message": "Invalid mobile number"

@@ -2,9 +2,9 @@
 # **Khalti Services Documentation**
 
 
-## *Version 6.4*
+## *Version 6.6*
 
-## *Last Update 24 September, 2024*
+## *Last Update 3 October, 2024*
 
 **Check the [Change Log]( Servicescodes/changelog.md) here.**
 
@@ -17,18 +17,14 @@ We provide REST API for consumption of services. Our single API serves all the s
 
 
 ## Live Environment
-- **URL:** [https://services.khalti.com/](https://services.khalti.com/app/)
+- **URL:** [https://services.khalti.com](https://services.khalti.com)
 
 ## Test Environment
-- **URL:** [https://uatservices.khalti.com](https://uatservices.khalti.com/)
+- **URL:** [https://uatservices.khalti.com](https://uatservices.khalti.com)
 
 ## Test Credentials
 - **Access the credentials:** [Test Credentials Spreadsheet](https://docs.google.com/spreadsheets/d/12oT1YfiokCHBkiU6eu7ySFMq2rfk1Es9NnLP0ps61rY/edit#gid=0)
 
 ## Token Generation
 - **Generate a token:** [Token Generation Steps](https://app.tango.us/app/workflow/Steps-for-staging-TEST--service-account-Login-and-Token-Setup-928be4ac17e94caeb37d02c7e576cf4d)
-
----
-
-
 
