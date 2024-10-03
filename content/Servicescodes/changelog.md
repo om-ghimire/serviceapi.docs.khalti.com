@@ -1,8 +1,13 @@
 ## **Change Log**
+**Version 6.5 September 24 2024**
+
+  * Shifted Internet Chitrawan Unique Net from Konnect (KCMS) : vns to Chitrawan Unique Net 
+
 
 **Version 6.5 September 24 2024**
 
   * Added Nettv in Tv Section
+
 **Version 6.4 September 12 2024**
 
   * Updated Docs
@@ -13,8 +18,8 @@
 
 **Version 6.2 July 10 2024**
 
-* Updated Ncell data API. Please refer to 18\. Ncell Data Pack   
-* Updated Ntc data API. Please refer to 19\. NTC Data Pack
+* Updated Ncell data API. Please refer to 18/. Ncell Data Pack   
+* Updated Ntc data API. Please refer to 19/. NTC Data Pack
 
 
 **Version 6.1 June 24 2024**
@@ -24,7 +29,7 @@
 
 **Version 6.0 June 18 2024**
 
-* Updated NT FTTH API Document.8.21. NT FTTH   There is no change in API, updated the Note from “Initial 6 characters are always constant \- ie. 100000” to “Initial 5 characters are always constant \- ie. 10000”.
+* Updated NT FTTH API Document.8.21. NT FTTH   There is no change in API, updated the Note from “Initial 6 characters are always constant /- ie. 100000” to “Initial 5 characters are always constant /- ie. 10000”.
 
 
 **Version 5.9 June 11 2024**
@@ -40,12 +45,12 @@
 
 **Version 5.7 April 25 2024**
 
-* Updated ticket download API for Service Cable car in 21\. Cable Car
+* Updated ticket download API for Service Cable car in 21/. Cable Car
 
 
 **Version 5.6 March 26 2024**
 
-* Added New Service Cable car in 21\. Cable Car
+* Added New Service Cable car in 21/. Cable Car
 
 
 **Version 5.5 March 18 2024**
@@ -110,7 +115,7 @@
 **Version 4.4 August 29 2023**
 
 * Added Rapid Unique Network in internet section (8.41)  
-* Added Iconwave \- VNS in internet section (8.42)
+* Added Iconwave /- VNS in internet section (8.42)
 
 **Version 4.3 August 20 2023**
 
@@ -124,7 +129,7 @@
 
 **Version 4.1 August 14 2023**
 
-* Reliance Insurance payment API response updated, added key extra\_data in payment API response. 
+* Reliance Insurance payment API response updated, added key extra/_data in payment API response. 
 
 **Version 4.0 July 31 2023**
 
@@ -174,8 +179,8 @@
 
 **Version 3.1 April 11 2023** 
 
-* Mero TV and Sky TV is shifter under Times \- TV API  
-* SKY Cable \- shifted to Times \- TV(7.9) and Times \- Internet  (8.6)  
+* Mero TV and Sky TV is shifter under Times /- TV API  
+* SKY Cable /- shifted to Times /- TV(7.9) and Times /- Internet  (8.6)  
 * SKY Topup and websurfer top-up service is removed.
 
 **Version 3.0 March 29 2023**
@@ -270,7 +275,7 @@
 
 **Version 1.6, Oct 1**
 
-* Added P\&G, Jagriti cable in TV payment
+* Added P/&G, Jagriti cable in TV payment
 
 **Version 1.5, Aug 21**
 

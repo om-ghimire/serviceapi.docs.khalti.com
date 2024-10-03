@@ -6,8 +6,7 @@ The PSTN (Landline) API allows you to process landline recharge operations. This
 
 ### Endpoint
 
-**URL:**  
-`{{base_url}}/api/use/landline/`  
+**URL:**   `{{base_url}}/api/use/landline/`  
 **Type:** Single Step API  
 **Request Method:** POST
 
