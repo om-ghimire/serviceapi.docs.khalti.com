@@ -94,7 +94,7 @@ Khanepani service charge is Rs. 5 per transaction.
 </code></pre>
 
 **Description:**  
-Calculate the service charge for the specified amount. The service charge applies only to amounts greater than 500.
+Calculate the service charge for the specified amount. The service charge applies to every transaction. 
 
 ### Khanepani Payment
 
