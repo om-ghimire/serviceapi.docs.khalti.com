@@ -2,9 +2,9 @@ site_name: Khalti Services Documentation
 nav:
   - Introduction: index.md
   - Service Layer State: Servicescodes/statecode.md
-  - Khalti Topup: Khaltitopup/khaltitopup.md
   - Mobile TopUp:
-        - Nepal Telecom: MobileTopup/nepal_telecom.md
+        - Khalti Topup: Khaltitopup/khaltitopup.md
+        - NTC: MobileTopup/nepal_telecom.md
         - Ncell: MobileTopup/ncell.md
   - Data Packs:
       - Ncell DataPacks: datapacks/NcellProduct.md
@@ -12,7 +12,6 @@ nav:
 
       
   - Electricity: Electricity/nea.md
-  - PSTN (Landline): PSTN/landline.md
   - Khanepani: Khanepani/khanepani.md
  
   - TV :
@@ -87,7 +86,7 @@ nav:
         - Prabhu Life: Insurance/prabhu_life.md
         - Nepal Life Insurance: Insurance/Nepal/nepal_Life_Insurace.md
         
-  - Rc Card: Rc card/rccard.md
+  
 
 
   - Community Electricity:
@@ -111,7 +110,17 @@ nav:
       - Tottle: Ride/tootle.md
 
   - Bluebook: bluebook/bluebook.md
+  - PSTN (Landline): PSTN/landline.md
+  - Bus: 
+    - Routes: Bus/route.md
+    - Search: Bus/search.md
+    - Seat: Bus/seat.md
+    - Book Bus: Bus/bus-booking.md
+    - Add info: Bus/add-info.md
+    - Payment: Bus/payment.md
+    - Download Ticket: Bus/ticket-download.md
 
+  - Rc Card: Rc card/rccard.md
   - Service Balance Check: Servicescodes/balance_check.md
   - Service LookUp API: Servicescodes/lookup.md
   - Bulk Service Lookup: Servicescodes/bulkservice.md

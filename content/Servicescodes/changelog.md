@@ -1,7 +1,8 @@
 ## **Change Log**
 
 **Version 6.7 October 24 2024**
-
+  * Added Bus v2 APi in docs 
+  
   * Added Max tv 
 
   * Update the bluebook api details 
