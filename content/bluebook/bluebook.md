@@ -20,9 +20,9 @@ The Bluebook API allows users to calculate and process bluebook renewals for veh
     "reference": "unique reference",
     "vehicle_type": "vehicle_type",  // 4W, 2W
     "cc": "cc",
-    "valid_start_date": "valid_start_date",
-    "valid_end_date": "valid_end_date",
-    "manufacture_date": "manufacture_date",
+    "valid_start_date": "valid_start_date in Nepali date ",
+    "valid_end_date": "valid_end_date in Nepali date ",
+    "manufacture_date": "manufacture_date Year only in English Year",
     "thirdparty_insurance": "True/False"
 }
 </code></pre>

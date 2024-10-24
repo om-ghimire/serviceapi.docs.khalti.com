@@ -24,14 +24,14 @@ The PSTN (Landline) API allows you to process landline recharge operations. This
 
 ### Request Example
 
-
+<pre><code class="json">
 {
-    "token": "<token-provided>",
-    "reference": "<unique-reference>",
-    "amount": "<amount>",
-    "number": "<number>"
+    "token": "token-provided",
+    "reference": "unique-reference",
+    "amount": "amount",
+    "number": "number"
 }
-
+</code></pre>
 ## Responses
 ### Success Response
 

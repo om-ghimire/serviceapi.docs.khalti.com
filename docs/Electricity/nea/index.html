@@ -540,6 +540,16 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#2-get-details-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Get details API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Get details API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#success-response_1" class="md-nav__link">
     <span class="md-ellipsis">
       Success Response
@@ -547,15 +557,44 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#3-get-service-charge" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Get service charge
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Get service charge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#success-response_2" class="md-nav__link">
     <span class="md-ellipsis">
       Success Response
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Success Response">
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-make-payment" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Make Payment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Make Payment">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2720,6 +2759,16 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#2-get-details-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Get details API
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Get details API">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#success-response_1" class="md-nav__link">
     <span class="md-ellipsis">
       Success Response
@@ -2727,15 +2776,44 @@
   </a>
   
 </li>
+        
+      </ul>
+    </nav>
+  
+</li>
       
         <li class="md-nav__item">
+  <a href="#3-get-service-charge" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Get service charge
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Get service charge">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
   <a href="#success-response_2" class="md-nav__link">
     <span class="md-ellipsis">
       Success Response
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="Success Response">
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-make-payment" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Make Payment
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Make Payment">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -2792,7 +2870,7 @@
 }
 </code></pre>
 
-<h3 id="success-response">Success Response<a class="headerlink" href="#success-response" title="Permanent link">&para;</a></h3>
+<h4 id="success-response">Success Response<a class="headerlink" href="#success-response" title="Permanent link">&para;</a></h4>
 <pre><code class="json">
 {
     "status": true,
@@ -2813,7 +2891,7 @@
 }
 </code></pre>
 
-<p><strong>2. Get details API</strong></p>
+<h2 id="2-get-details-api">2. Get details API<a class="headerlink" href="#2-get-details-api" title="Permanent link">&para;</a></h2>
 <p><strong>URL</strong>:<code>{{url}}/api/servicegroup/details/nea/</code> </p>
 <p><strong>Request</strong>: <code>POST</code></p>
 <p><strong>Service Params:</strong></p>
@@ -2828,7 +2906,7 @@
 </code></pre>
 
 <p><strong>Note : Sc_no : 3 alphanumeric string separated by dot.</strong></p>
-<h2 id="success-response_1">Success Response<a class="headerlink" href="#success-response_1" title="Permanent link">&para;</a></h2>
+<h3 id="success-response_1">Success Response<a class="headerlink" href="#success-response_1" title="Permanent link">&para;</a></h3>
 <pre><code class="json">
 {
     "session_id": 5,
@@ -2864,7 +2942,7 @@
 <li>Partial payments are allowed.</li>
 </ul>
 </div>
-<p><strong>3</strong>.<strong>Get service charge</strong>  </p>
+<h2 id="3-get-service-charge">3. Get service charge<a class="headerlink" href="#3-get-service-charge" title="Permanent link">&para;</a></h2>
 <p><strong>URL</strong>:<code>{{url}}/api/servicegroup/servicecharge/nea/</code></p>
 <p><strong>Request</strong>: <code>POST</code></p>
 <p><strong>Service Params:</strong>  </p>
@@ -2876,7 +2954,7 @@
 }
 </code></pre>
 
-<h2 id="success-response_2">Success Response<a class="headerlink" href="#success-response_2" title="Permanent link">&para;</a></h2>
+<h3 id="success-response_2">Success Response<a class="headerlink" href="#success-response_2" title="Permanent link">&para;</a></h3>
 <pre><code class="json">
 {
     "service_charge": 5.0,
@@ -2890,7 +2968,7 @@ Calculate the service charge for the payment amount. The service charge applies 
 <p><strong>Note:</strong><br />
 - For amounts less than 500, the service charge is 0.
 - This API only calculates the charge. The amount provided to the Make Payment API should exclude the service charge.</p>
-<p><strong>4</strong>. <strong>Make Payment</strong></p>
+<h2 id="4-make-payment">4. Make Payment<a class="headerlink" href="#4-make-payment" title="Permanent link">&para;</a></h2>
 <p><strong>URL</strong>: <code>{{url}}/api/servicegroup/commit/nea/</code></p>
 <p><strong>Method:</strong> <code>POST</code></p>
 <p><strong>Response Body</strong></p>
