@@ -8,7 +8,7 @@ The Ncell Data Pack API provides two main functionalities:
 
 2. **Ncell Data Pack Payment API**: Process payment for a selected Ncell data pack.
 
-### Get Packages API
+## 1. Get Packages API
 
 **Request URL:**  
 `{{base_url}}/api/servicegroup/getpackages/ncell-product/`
@@ -24,7 +24,7 @@ The Ncell Data Pack API provides two main functionalities:
 
 </code></pre>
 
-
+### Success Response
 <pre><code class="json">
 {
     "status": true,
@@ -79,7 +79,7 @@ The Ncell Data Pack API provides two main functionalities:
 }
 </code></pre>
 
-## Ncell Data Pack Payment API
+## 2. Payment 
 
 ### Request URL:
   ```{{base_url}}/api/use/ncell-product/```

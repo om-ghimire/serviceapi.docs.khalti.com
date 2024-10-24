@@ -1,6 +1,16 @@
 ## **Change Log**
-**Version 6.6 September 24 2024**
+
+**Version 6.7 October 24 2024**
+
+  * Added Max tv 
+
+  * Update the bluebook api details 
+
+**Version 6.6 October 3 2024**
+
   * Updated Tyo mistake in Khanepani
+
+
 **Version 6.5 September 24 2024**
 
   * Shifted Internet Chitrawan Unique Net from Konnect (KCMS) : vns to Chitrawan Unique Net 
