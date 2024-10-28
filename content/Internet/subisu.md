@@ -19,7 +19,7 @@
 {  
   "token": "token-provided",  
   "reference": "unique-reference",  
-  "Username": "Username"  
+  "username": "username"  
 }
 </code></pre>
 

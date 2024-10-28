@@ -1,6 +1,13 @@
 ## **Change Log**
 
+
 **Version 6.7 October 24 2024**
+
+  * Updated Typo mistake in document
+
+
+**Version 6.7 October 24 2024**
+
   * Added Bus v2 APi in docs 
   
   * Added Max tv 
@@ -9,7 +16,7 @@
 
 **Version 6.6 October 3 2024**
 
-  * Updated Tyo mistake in Khanepani
+  * Updated Typo mistake in Khanepani
 
 
 **Version 6.5 September 24 2024**
