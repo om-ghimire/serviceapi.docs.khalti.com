@@ -60,18 +60,8 @@
 <pre><code class="json">
 {
   "token": "token",
-  "Session_id": "{{session_id}}",   // From Detail Fetch API
-  "Amount": "{{total_amount}}"       // From Detail Fetch API
-}
-</code></pre>
-
-**Request Example:**
-
-<pre><code class="json">
-{
-  "token": "your_token_here",
-  "Session_id": "1913",
-  "Amount": "100.0"
+  "session_id": "{{session_id}}",   // From Detail Fetch API
+  "amount": "{{total_amount}}"       // From Detail Fetch API
 }
 </code></pre>
 

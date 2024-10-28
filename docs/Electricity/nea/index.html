@@ -3088,14 +3088,14 @@
 <pre><code class="json">
 {
     "token": "token",
-    "Sc_no": "customer SC number, e.g. 02A.12.512",
+    "sc_no": "customer sc number, e.g. 02A.12.512",
     "reference": "unique-reference",
-    "Office_code":"one of the 'value' fields from Get Counters response",
+    "office_code":"one of the 'value' fields from Get Counters response",
     "consumer_id": "consumer ID, e.g. 3042"
 }
 </code></pre>
 
-<p><strong>Note : Sc_no : 3 alphanumeric string separated by dot.</strong></p>
+<p><strong>Note : sc_no : 3 alphanumeric string separated by dot.</strong></p>
 <h3 id="success-response_1">Success Response<a class="headerlink" href="#success-response_1" title="Permanent link">&para;</a></h3>
 <pre><code class="json">
 {
@@ -3140,7 +3140,7 @@
 {
     "amount": "Total amount intended to pay",
     "session_id": "value obtained during detail fetch step",
-    "token": "Unique Identifier"
+    "token": "token"
 }
 </code></pre>
 
@@ -3164,6 +3164,7 @@ Calculate the service charge for the payment amount. The service charge applies 
 <p><strong>Response Body</strong></p>
 <pre><code class="json">
 {
+    "token": "token",
     "amount": "Total amount intended to pay (excluding service charge)",
     "session_id": "value obtained during detail fetch step",
     "reference": "unique reference"
