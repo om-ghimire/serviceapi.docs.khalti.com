@@ -93,7 +93,7 @@ Please find the name of the cable car and their respective slug.
 
 ### 2. **Payment API**
 
-**Request URL:** {{base_url}}/api/commit/cable-car/
+**Request URL:** {{base_url}}/api/servicegroup/commit/cable-car/
 
 **Request Method:** POST
 
@@ -137,7 +137,7 @@ Please find the name of the cable car and their respective slug.
 
 ### 3. **Ticket API**
 
-**Request URL:** {{base_url}}/api/commit/downloadticket/cable-car/
+**Request URL:** {{base_url}}/api/servicegroup/downloadticket/cable-car/
 
 **Request Method:** POST
 
