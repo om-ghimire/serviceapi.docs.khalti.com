@@ -7,7 +7,7 @@ This document describes the API for searching buses between specified locations.
 ## API Endpoint
 
 **Request URL:** `{{url}}/api/servicegroup/search-v2/bus/`  
-**Request Method:** POST
+**Request Method:** GET
 
 ### Parameters
 <pre><code class="json">
