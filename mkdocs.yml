@@ -1,7 +1,12 @@
 site_name: Khalti Services Documentation
 nav:
   - Introduction: index.md
-  - Service Layer State: Servicescodes/statecode.md
+  - Service Status Check : 
+      - State List: Servicescodes/statecode.md
+      - DLR: Servicescodes/dlr.md
+      - Service Balance Check: Servicescodes/balance_check.md
+      - Service LookUp API: Servicescodes/lookup.md
+      - Bulk Service Lookup: Servicescodes/bulkservice.md
   - Mobile TopUp:
         - Khalti Topup: Khaltitopup/khaltitopup.md
         - NTC: MobileTopup/nepal_telecom.md
@@ -121,9 +126,7 @@ nav:
     - Download Ticket: Bus/ticket-download.md
 
   - Rc Card: Rc card/rccard.md
-  - Service Balance Check: Servicescodes/balance_check.md
-  - Service LookUp API: Servicescodes/lookup.md
-  - Bulk Service Lookup: Servicescodes/bulkservice.md
+
   - Changelog: Servicescodes/changelog.md
   - FAQ's: Servicescodes/faq.md
 
