@@ -1,14 +1,17 @@
 ## **Change Log**
 
+**Version 6.9, Novemeber 12 2024**
+
+  * Updated Service layer status
+
+**Version 6.8 October 24 2024**
+
+  * Updated Typo mistake
+
 
 **Version 6.7 October 24 2024**
 
-  * Updated Typo mistake in document
-
-
-**Version 6.7 October 24 2024**
-
-  * Added Bus v2 APi in docs 
+  * Added Bus v2 API
   
   * Added Max tv 
 

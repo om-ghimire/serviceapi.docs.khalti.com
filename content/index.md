@@ -2,9 +2,9 @@
 # **Khalti Services Documentation**
 
 
-## *Version 6.8*
+## *Version 6.9*
 
-## *Last Update 28 October, 2024*
+## *Last Update 12 Novemeber, 2024*
 
 **Check the [Change Log]( Servicescodes/changelog.md) here.**
 

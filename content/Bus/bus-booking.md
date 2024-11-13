@@ -14,7 +14,6 @@ This document describes the API for booking a bus ticket. The API allows users t
 <pre><code class="json">
 {
     "token: "{{live_token}}",
-    "reference": "{{$guid}}",
     "session_id": "{{session_id}}",
     "bus_id": "{{bus_id}}",
     "seats": "["{{seat1}}", "{{seat2}}"] (array of selected seats)"

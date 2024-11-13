@@ -14,7 +14,6 @@ This document describes the API for retrieving seating information for a specifi
     "token":"{{token}}",
     "bus_id": "{{bus_id}}",
     "session_id": "{{session_id}}",
-    "reference": "{{$guid}}"
 </code></pre>
 ## API Response
 
