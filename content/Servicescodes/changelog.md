@@ -1,5 +1,9 @@
 ## **Change Log**
 
+**Version 7.0, December 26 2024**
+
+  * Added Kukl Docs
+
 **Version 6.9, Novemeber 12 2024**
 
   * Updated Service layer status
