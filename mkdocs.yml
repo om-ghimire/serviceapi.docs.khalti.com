@@ -17,8 +17,13 @@ nav:
 
       
   - Electricity: Electricity/nea.md
-  - Khanepani: Khanepani/khanepani.md
- 
+  - Khanepani: 
+      - Community Khanepani: Khanepani/khanepani.md
+      - Kukl:
+          - Counter : Khanepani/Kukl/counter.md 
+          - Kukl Details: Khanepani/Kukl/Kukl-Details.md
+          - Kukl Service Charge: servicecharge/service-charge.md
+          - KUKL Payment: Khanepani/Kukl/Kukl-payment.md
   - TV :
     - Nettv:  TV/nettv.md
     - SimTV: TV/simtv.md
