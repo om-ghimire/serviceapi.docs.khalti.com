@@ -36,7 +36,7 @@ nav:
 
   - Internet:
     - Worldlink: Internet/worldlink.md
-    - Vianet: Internet/vianet.md
+    - Vianet: Internet/vianet-new.md
     - Adsl: Internet/adsl.md
     - NTFTTH : Internet/ntftth.md
     - Dishhome: Internet/dishhome.md
@@ -71,6 +71,7 @@ nav:
     - 3G Vision: Internet/3g-vision.md
     - First Link: Internet/first-link.md
     - Sky Broadband: Internet/sky-broadband.md
+    - Vianet (old): Internet/vianet.md
     
 
   - Insurance: 
@@ -80,7 +81,7 @@ nav:
           - Neco Insurance:  Insurance/neco_insurance.md
           - Sagarmatha Lumbini Insurance: Insurance/sagarmatha_insurance.md
           - Nepal Non Life Insurance: Insurance/nepal_non_life.md
-          - Insurance: Insurance/Himalayan Insurance/hg-general-insurance.md
+          - Himalayan General Insurance: Insurance/Himalayan Insurance/hg-general-insurance.md
   
       - Life Insurances:
         - Arhant Life Insurance : Insurance/Arhant Insurance/life.md 

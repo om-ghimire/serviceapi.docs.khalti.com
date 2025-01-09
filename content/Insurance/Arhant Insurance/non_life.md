@@ -1,21 +1,35 @@
 # **Arhant Non-Life Insurances**
 
-**Overview:** This document provides information on the non-life insurance services offered by Arhant, including the endpoints for retrieving proforma details and completing payments.
+**Overview:**  
+This document provides information on the non-life insurance services offered by Arhant, including the endpoints for retrieving proforma details and completing payments.
 
-**Available Non-Life Insurance Services:**
+---
 
-1. ##### **Shikhar Insurance**
-   - **Service Slug:** `shikhar-insurance`
+### **Available Non-Life Insurance Services:**
 
-2. ##### **United Insurance**
-   - **Service Slug:** `united-ajod-insurance`
+| **Insurance Company**              | **Service Slug**                 | **Notes**                                                                  |
+|------------------------------------|----------------------------------|----------------------------------------------------------------------------|
+| Ajod Insurance                     | `ajod-insurance`                 | Obsolete. Merged with United Insurance. Use United Insurance API.        |
+| Everest Insurance                  | `everest-insurance`              | Obsolete.                                    |
+| GIC Insurance                      | `gic-insurance`                  | Obsolete.                        |
+| Lumbini General Insurance          | `lumbini-general-insurance`      | Merged with Sagarmatha Insurance API. Lumbini General Insurance is obsolete. |
+| NLG Insurance                      | `nlg-insurance`                  |                                                                            |
+| Premier Insurance                  | `premier-insurance`              | Obsolete. Merged with Siddhartha Insurance. Use Siddhartha Insurance API.  |
+| Sanima General Insurance           | `sanima-general-insurance`       |                                                                            |
+| Shikhar Insurance                  | `shikhar-insurance`              | Obsolete.                                           |
+| Siddhartha Insurance               | `siddhartha-insurance`           |                                                                            |
+| United Insurance                   | `united-insurance`               |                                                                            |
 
-**API for Retrieving Proforma Details** ``{{base_url}}/api/servicegroup/details/arhant-non-life-insurance/``
+---
 
-**Method:** POST
+### **Details**
 
-**Request Parameters:**
+- **URL:** `{{base_url}}/api/servicegroup/details/arhant-non-life-insurance/`  
+- **Method:** POST
+
+#### **Request Parameters:**
 To get the proforma details, send a POST request with the following parameters:
+
 <pre><code class="json">
 {
     "token": "token",              
@@ -23,10 +37,11 @@ To get the proforma details, send a POST request with the following parameters:
     "proforma_no": "01458110",       
     "service_slug": "service_slug" 
 }
-</pre>
+</code></pre>
 
-**Example Response:**
+#### **Example Response:**
 The response provides detailed information about the proforma, such as premium amounts, insured details, and vehicle information.
+
 <pre><code class="json">
 {
     "success_message": "Proforma is valid",
@@ -44,26 +59,29 @@ The response provides detailed information about the proforma, such as premium a
     "session_id": 20327,
     "status": true
 }
-</pre>
+</code></pre>
 
-**API for Completing Payment**
+---
 
-**Endpoint:** Complete Payment: {{base_url}}/api/servicegroup/commit/arhant-non-life-insurance/
+### **Payment**
 
-**Method:** POST
+- **URL:** `{{base_url}}/api/servicegroup/commit/arhant-non-life-insurance/`  
+- **Method:** POST
 
-**Request Parameters:**
+#### **Request Parameters:**
 To finalize the payment, send a POST request with these parameters:
+
 <pre><code class="json">
 {
     "token": "token",               
     "reference": "reference",        
     "session_id": "session_id"     
 }
-</pre>
+</code></pre>
 
-**Example Response:**
+#### **Example Response:**
 The response confirms the transaction status and provides details about credits consumed and remaining.
+
 <pre><code class="json">
 {
     "status": true,
@@ -75,4 +93,4 @@ The response confirms the transaction status and provides details about credits 
     "credits_available": "xxxxxxxx",
     "id": 62849
 }
-</pre>
+</code></pre>

@@ -1,4 +1,7 @@
-# Vianet
+# Vianet Deprecated
+
+> **Note:** Please ensure to follow the latest API in the Vianet documentation. [Click here](/Internet/vianet-new/) for more details.
+
 
 ### Overview
 
