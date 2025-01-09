@@ -1,4 +1,8 @@
 ## **Change Log**
+**Version 7.1, Janaury 9th 2025**
+
+  * Updated Vianet docs 
+
 
 **Version 7.0, December 26 2024**
 

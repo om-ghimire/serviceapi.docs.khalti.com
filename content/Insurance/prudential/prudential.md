@@ -1,14 +1,15 @@
-# 11.19. Prudential Insurance
+# **Prudential Insurance**
 
 **Type**: Multi Step API
 
+---
+
 ## 1. Get Branches API
 
-**Request URL**: {{base_url}}/api/servicegroup/getpackages/prudential-insurance/
+- **Request URL**: `{{base_url}}/api/servicegroup/getpackages/prudential-insurance/`  
+- **Request Method**: POST
 
-**Request Method**: POST
-
-**Service Params**:
+### **Service Params**:
 
 <pre><code class="json">
 {
@@ -16,7 +17,7 @@
 }
 </code></pre>
 
-**Response**:
+### **Response**:
 
 <pre><code class="json">
 {
@@ -36,13 +37,14 @@
 }
 </code></pre>
 
+---
+
 ## 2. Payment API
 
-**Request URL**: {{base_url}}/api/use/prudential-insurance/
+- **Request URL**: `{{base_url}}/api/use/prudential-insurance/`  
+- **Request Method**: POST
 
-**Request Method**: POST
-
-**Service Params**:
+### **Service Params**:
 
 <pre><code class="json">
 {
@@ -57,7 +59,7 @@
 }
 </code></pre>
 
-**Response**:
+### **Response**:
 
 <pre><code class="json">
 {
