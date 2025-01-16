@@ -3204,25 +3204,36 @@
 <p><strong>Type:</strong> Multi-Step API</p>
 <p>There are three types of users for whom this API is applicable:</p>
 <ol>
-<li><strong>Package Switchable Users</strong>
-   Users have access to switch the internet package.</li>
 <li>
-<p><strong>username:</strong> <code>online_renew</code></p>
+<p><strong>Package Switchable Users</strong><br />
+      You will receive the package options in <strong>package_options</strong>.</p>
+<p>These users can switch their internet package.<br />
+- <strong>Username</strong>: <code>online_renew</code></p>
 </li>
 <li>
-<p><strong>Package Switchable Users with Due Payment</strong>
-   Users make payments for the due amount of the internet and have access to switch packages. Both due and package switch charges will be applied in case of a package change. If users do not wish to change the package, the due payment is not necessary.</p>
+<p><strong>Package Switchable Users with Due Payment</strong></p>
+<p>You will receive the package options in <strong>available_renew_options</strong>.</p>
+<ul>
+<li><strong>Users can switch their internet package</strong> and need to pay any outstanding dues.</li>
+<li>If the <strong>subscribed_package_id</strong> is the same as the <strong>available_renew_options packageId</strong>, <strong>due payment</strong> will not be added to the total payable amount.</li>
+<li>
+<p>If the <strong>subscribed_package_id</strong> is different from the <strong>available_renew_options packageId</strong>, the <strong>due amount</strong> will be added to the total payable amount.</p>
 </li>
 <li>
-<p><strong>username:</strong> <code>online_due_and_package</code></p>
+<p><strong>Username</strong>: <code>online_due_and_package</code></p>
+</li>
+</ul>
 </li>
 <li>
-<p><strong>Package Non-Switchable Users with Due Payment</strong></p>
+<p><strong>Package Non-Switchable Users with Due Payment</strong><br />
+   These users have a due payment but cannot switch their package.  </p>
+<ul>
+<li><strong>Username</strong>: <code>online_due_payment</code></li>
+</ul>
 </li>
-<li><strong>username:</strong> <code>online_due_payment</code></li>
 </ol>
 <h2 id="1-detail-fetch-api">1. Detail Fetch API<a class="headerlink" href="#1-detail-fetch-api" title="Permanent link">&para;</a></h2>
-<p><strong>Request URL:</strong> <a href="https://example.com/api/servicegroup/details/worldlink-v2/">{{base_url}}/api/servicegroup/details/worldlink-v2/</a></p>
+<p><strong>Request URL:</strong> {{base_url}}/api/servicegroup/details/worldlink-v2/</p>
 <p><strong>Request Method:</strong> POST</p>
 <p><strong>Service Params:</strong></p>
 <pre><code class="json">
@@ -3243,6 +3254,7 @@
   "full_name": "Online Renew",  
   "subscribed_package_name": "Value Standard 25mbps/3mths 1TV (Renew)",  
   "subscribed_package_type": "Unlimited",  
+  "subscribedPackageId": 1888314,
   "days_remaining": 0,  
   "message": "You have due payment.",  
   "package_options": [  
@@ -3306,43 +3318,115 @@
 <h3 id="response-for-package-switchable-users-with-due-payment">Response for Package Switchable Users with Due Payment<a class="headerlink" href="#response-for-package-switchable-users-with-due-payment" title="Permanent link">&para;</a></h3>
 <p><strong>Example Response:</strong></p>
 <pre><code class="json">
-{  
-  "username": "online_due_and_package",  
-  "full_name": "Online due and package",  
-  "branch": "MANBHAWAN",  
-  "subscribed_package_name": "TV ma YouTube 25mbps/12mths 1TV (Renew)",  
-  "subscribed_package_type": "Unlimited",  
-  "days_remaining": 0,  
-  "message": "You have due payment.",  
-  "renew_option": true,  
-  "due_amount_till_now": 401,  
-  "first_online_payment": false,  
-  "amount_detail": [  
-    {  
-      "particular": "Internet",  
-      "amount": 16272  
-    }  
-  ],  
-  "amount": 16272,  
-  "available_renew_options": [  
-    {  
-      "label": "30Mbps/12mths SPECIAL OFFER 2077 (1TV) [Rs. 16950]",  
-      "value": 1888349,  
-      "amount": 16950  
-    },  
-    {  
-      "label": "40Mbps/12mths SPECIAL OFFER 2077 (2TV) [Rs. 19775]",  
-      "value": 1888352,  
-      "amount": 19775  
-    },  
-    {  
-      "label": "60Mbps/12mths SPECIAL OFFER 2077 (3TV) [Rs. 24860]",  
-      "value": 1888355,  
-      "amount": 24860  
-    }  
-  ],  
-  "package_options": [],  
-  "log_idx": "RMkd5PoS49GBWAvWKme8nU"  
+{
+    "username": "online_due_and_package",
+    "account_type": "PERSONAL",
+    "full_name": "online_due_and_package",
+    "branch": "REGION2-NBU4",
+    "subscribed_package_name": "BTL 120Mbps/12mths With 1TV New Year Dhamaka 079",
+    "subscribed_package_type": "Unlimited",
+    "subscribed_package_id": 1888768,
+    "days_remaining": 0,
+    "message": "You have due payment.",
+    "package_options": [],
+    "vatrefund_eligible": true,
+    "available_renew_options": [
+        {
+            "packageId": 18881068,
+            "packageName": "WorldLink TurboSpeed Plus 150Mbps/12M\t",
+            "packageRate": 13108,
+            "packageLabel": "WorldLink TurboSpeed Plus 150Mbps/12M\t [Rs. 13108]",
+            "recommendOrder": 1,
+            "packageDuration": "365",
+            "tvEligiblePackage": 0,
+            "packageEligibility": false
+        },
+        {
+            "packageId": 1888857,
+            "packageName": "Smart Offer (1TV) 2079 200mbps/12mths",
+            "packageRate": 16272,
+            "packageLabel": "Smart Offer (1TV) 2079 200mbps/12mths [Rs. 16272]",
+            "recommendOrder": 2,
+            "packageDuration": "365",
+            "tvEligiblePackage": 1,
+            "packageEligibility": false
+        },
+        {
+            "packageId": 1888767,
+            "packageName": "BTL 120Mbps/3mths With 1TV New Year Dhamaka 079",
+            "packageRate": 3220,
+            "packageLabel": "BTL 120Mbps/3mths With 1TV New Year Dhamaka 079 [Rs. 3220]",
+            "recommendOrder": 3,
+            "packageDuration": "90",
+            "tvEligiblePackage": 0,
+            "packageEligibility": false
+        },
+        {
+            "packageId": 1888668,
+            "packageName": "Special BTL 120Mbps/mth (1TV)",
+            "packageRate": 1356,
+            "packageLabel": "Special BTL 120Mbps/mth (1TV) [Rs. 1356]",
+            "recommendOrder": 4,
+            "packageDuration": "30",
+            "tvEligiblePackage": 0,
+            "packageEligibility": false
+        },
+        {
+            "packageId": 1888858,
+            "packageName": "Smart Offer (1TV) 2079 250mbps/12mths",
+            "packageRate": 16950,
+            "packageLabel": "Smart Offer (1TV) 2079 250mbps/12mths [Rs. 16950]",
+            "recommendOrder": 5,
+            "packageDuration": "365",
+            "tvEligiblePackage": 1,
+            "packageEligibility": false
+        },
+        {
+            "packageId": 18881115,
+            "packageName": "New Smart Offer (1TV) 2081 200Mbps/6mths",
+            "packageRate": 8927,
+            "packageLabel": "New Smart Offer (1TV) 2081 200Mbps/6mths [Rs. 8927]",
+            "recommendOrder": 6,
+            "packageDuration": "180",
+            "tvEligiblePackage": 0,
+            "packageEligibility": false
+        },
+        {
+            "packageId": 18881116,
+            "packageName": "New smart Offer (1TV) 2081 200Mbps/24mths",
+            "packageRate": 23041,
+            "packageLabel": "New smart Offer (1TV) 2081 200Mbps/24mths [Rs. 23041]",
+            "recommendOrder": 7,
+            "packageDuration": "730",
+            "tvEligiblePackage": 0,
+            "packageEligibility": false
+        },
+        {
+            "packageId": 1888768,
+            "packageName": "BTL 120Mbps/12mths With 1TV New Year Dhamaka 079",
+            "packageRate": 12204,
+            "packageLabel": "BTL 120Mbps/12mths With 1TV New Year Dhamaka 079 [Rs.12204]",
+            "tvEligiblePackage": 0,
+            "packageEligibility": true,
+            "packageDuration": 0,
+            "recommendOrder": 0
+        }
+    ],
+    "renew_option": true,
+    "due_amount_till_now": 301,
+    "due_remarks": "used 9 days of BTL 120Mbps/12mths With 1TV New Year Dhamaka 079 (1888768)",
+    "first_online_payment": false,
+    "amount_detail": [
+        {
+            "amount": 12204,
+            "creditor": "worldlink",
+            "particular": "Internet",
+            "creditorPan": "300073250"
+        }
+    ],
+    "amount": 12204,
+    "session_id": 22906,
+    "status": true
 }
 </code></pre>
 

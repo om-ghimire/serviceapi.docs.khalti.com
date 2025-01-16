@@ -1,7 +1,11 @@
 ## **Change Log**
+**Version 7.2, Janaury 9th 2025**
+
+  * Updated [Worldlink docs](/Internet/worldlink)
+
 **Version 7.1, Janaury 9th 2025**
 
-  * Updated Vianet docs 
+  * Updated [Vianet docs](/Internet/vianet-new)
 
 
 **Version 7.0, December 26 2024**
