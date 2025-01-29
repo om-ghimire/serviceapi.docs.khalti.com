@@ -6,7 +6,7 @@ This API allows you to create service charges for a specific service by providin
 
 ### Endpoint
 **URL**: `{{base_url}}/api/account/service-charges/`  
-**Method**: `POST`
+**Method**: `GET`
 
 ---
 
