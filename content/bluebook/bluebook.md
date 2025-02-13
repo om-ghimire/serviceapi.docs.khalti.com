@@ -18,14 +18,16 @@ The Bluebook API allows users to calculate and process bluebook renewals for veh
 {
     "token": "token",
     "reference": "unique reference",
-    "vehicle_type": "vehicle_type",  // 4W, 2W
-    "cc": "cc",
+    "vehicle_type": "vehicle_type",  // 4W, 2W, 2wev, 4wev
+    "cc": "cc", // See in Notes below
     "valid_start_date": "valid_start_date in Nepali date ",
     "valid_end_date": "valid_end_date in Nepali date ",
     "manufacture_date": "manufacture_date Year only in English Year",
     "thirdparty_insurance": "True/False"
 }
 </code></pre>
+!!! NOTES
+    For electric vehicles (EVs), use "Watt" and "Kilowatt" to measure power. For other vehicles, use "CC" (cubic centimeters) – for example, 220cc for non-electric vehicles, and 50cc for electric ones.
 
 **Response:**  
 
