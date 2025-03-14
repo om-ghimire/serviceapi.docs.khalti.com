@@ -248,7 +248,7 @@ The NTC Data Pack API allows you to:
 ##  Payment API
 
 **Request URL:**
-``{{base_url}}/api/servicegroup/ntc-package/``
+``{{base_url}}/api/use/ntc-package/``
 
 **Request Method:** `POST`
 
