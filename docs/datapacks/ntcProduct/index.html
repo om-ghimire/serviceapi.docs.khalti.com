@@ -3437,7 +3437,7 @@
 
 <h2 id="payment-api">Payment API<a class="headerlink" href="#payment-api" title="Permanent link">&para;</a></h2>
 <p><strong>Request URL:</strong>
-<code>{{base_url}}/api/servicegroup/use/ntc-package/</code></p>
+<code>{{base_url}}/api/servicegroup/ntc-package/</code></p>
 <p><strong>Request Method:</strong> <code>POST</code></p>
 <p><strong>Service Parameters:</strong></p>
 <pre><code class="json">
@@ -3445,7 +3445,9 @@
 {
     "token": "token",
     "package_id": "package_id",
-    "amount": "amount"
+    "amount": "amount",
+    "reference":"{{$guid}}",
+    "number":"9876541230"
 }
 </code></pre>
 <h3 id="success-response_1">Success Response:<a class="headerlink" href="#success-response_1" title="Permanent link">&para;</a></h3>
