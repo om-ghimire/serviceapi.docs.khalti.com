@@ -1,4 +1,4 @@
-# 7.5 Max TV API Documentation
+# Max TV API Documentation
 
 ## Overview
 
