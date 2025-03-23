@@ -1,7 +1,10 @@
 ## **Change Log**
+**Version 7.3, March 23rd 2025**
+
+  * Updated [Prabhu docs](../TV/Prabhutv.md)
 **Version 7.2, Janaury 9th 2025**
 
-  * Updated [Worldlink docs](/Internet/worldlink)
+  * Updated [Worldlink docs](../Internet/worldlink.md)
 
 **Version 7.1, Janaury 9th 2025**
 

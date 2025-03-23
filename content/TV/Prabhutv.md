@@ -1,83 +1,115 @@
-# Max TV API Documentation
+# Prabhu TV API Documentation  
 
-## Overview
+## Overview  
 
-The Max TV API provides functionality for retrieving details about Max TV services and processing payments. The API consists of two main endpoints: one for fetching service details and another for making payments. These endpoints are designed to facilitate the integration of Max TV services into your application or system.
+This document describes the API endpoints for fetching customer details and processing payments for Prabhu TV services. It includes request and response formats for both the **Customer Detail Fetch API** and the **Payment API**.  
 
-## Detail Fetch API
+---
 
-**Request URL:**  
-`{{base_url}}/api/servicegroup/details/max-tv/`
+## Customer Detail Fetch API  
 
-**Request Method:**  
-POST
+**Request URL:** `{{base_url}}/api/servicegroup/details/prabhu-tv/`  
+**Request Method:** `POST`  
 
-**Service Parameters:**  
+### Valid Amounts  
+
+`[350, 1050, 1800, 2400, 3500, 6500, 9000, 11500, 24000]`  
+
+### Service Params  
+
 <pre><code class="json">
 {
-  "token": "<token>",
-  "customer_id": "0000405146",  // Numeric value
-  "reference": "<unique reference id>"
+    "token": "token",
+    "reference": "reference123",
+    "cas_id": "01234567891"
 }
-</code></pre>
+</code></pre>  
 
-**Response:**  
+### Response  
+
 <pre><code class="json">
 {
-  "customer_name": "vod test All",
-  "cid_stb_smartcard": "0000405146",
-  "amount": 600,
-  "tvs": [
-    {
-      "stb_no": "6030637000423863",
-      "smartcard_no": "6030637000423863"
-    }
-  ],
-  "session_id": 51,
-  "status": true
+    "session_id": 10,
+    "customer_name": "Online Test Box Five",
+    "balance": "141.94",
+    "stb_count": "1",
+    "customer_id": "102995",
+    "current_packages": [
+        {
+            "product_name": "Lumbini(12 Months)",
+            "service_start_date": "2020-05-06",
+            "serial_number": "00720922966",
+            "mac_vc_number": "02532963573",
+            "expiry_date": "2020-05-23",
+            "bill_amount": 168
+        }
+    ],
+    "status": true
 }
-</code></pre>
+</code></pre>  
 
-**Error Response:**  
+### Error Response  
+
 <pre><code class="json">
 {
-  "status": false,
-  "error_code": "4000",
-  "message": "Can't fulfill request",
-  "error": "client_error",
-  "details": "Invalid customer id / stb no. / smartcard no.",
-  "error_data": {},
-  "state": "Error"
+    "status": false,
+    "error_code": "4001",
+    "message": "Invalid Customer ID",
+    "error": "client_error",
+    "details": "The provided cas_id does not exist.",
+    "error_data": {},
+    "state": "Error"
 }
-</code></pre>
+</code></pre>  
 
-## Payment API
+---
 
-**Request URL:**  
-`{{base_url}}/api/use/max-tv/`
+## Payment API  
 
-**Request Method:**  
-POST
+**Request URL:** `{{base_url}}/api/use/prabhu-tv/`  
+**Request Method:** `POST`  
 
-**Service Parameters:**  
+### Valid Amounts  
+
+`[350, 1800, 2400, 3500, 6500, 9000, 11500, 24000]`  
+
+### Service Params  
+
 <pre><code class="json">
 {
-  "token": "<token>",
-  "customer_id": "0000405146",
-  "amount": 100,
-  "session_id": 51,
-  "reference": "<unique reference id>"
+    "token": "token",
+    "cas_id": "01234567891",
+    "session_id": 10,
+    "amount": 10,
+    "reference": "reference123"
 }
-</code></pre>
+</code></pre>  
 
-**Response:**  
+### Response  
+
 <pre><code class="json">
 {
-  "status": true,
-  "state": "Success",
-  "message": "Successfully Completed Transaction",
-  "extra_data": {},
-  "detail": "Successful",
-  "id": 5035
+    "status": true,
+    "state": "Success",
+    "message": "Successfully Completed Transaction",
+    "extra_data": {},
+    "detail": "Transaction Successful",
+    "credits_consumed": 10.0,
+    "credits_available": 97917526.975,
+    "id": 2771
 }
-</code></pre>
+</code></pre>  
+
+### Error Response  
+
+<pre><code class="json">
+{
+    "status": false,
+    "error_code": "4002",
+    "message": "Invalid Amount",
+    "error": "client_error",
+    "details": "The provided amount is not valid for this transaction.",
+    "error_data": {},
+    "state": "Error"
+}
+</code></pre>  
