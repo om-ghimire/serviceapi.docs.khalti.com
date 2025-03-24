@@ -8,8 +8,11 @@ The Arhant Life Insurance API allows users to fetch details about their life ins
 
 **Below is the list of Life Insurances under Arhant and their service_slug:**
 
-1. ##### **Asian Life Insurance : asian-life-insurance**
-2. ##### **Ime Life Insurance : ime-life-insurance**
+| Life Insurance                   | service_slug                      |
+|----------------------------------|----------------------------------|
+| **Asian Life Insurance**         | `asian-life-insurance`          |
+| **Ime Life Insurance**           | `ime-life-insurance`            |
+| **Prabhu Mahalaxmi Life Insurance** | `prabhu-mahalaxmi-life-insurance` |
 
 ---
 
