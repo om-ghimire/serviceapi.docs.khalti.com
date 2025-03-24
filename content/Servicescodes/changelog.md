@@ -1,7 +1,13 @@
 ## **Change Log**
+
+**Version 7.4, March 24th 2025**
+
+  * Updated Prabhu Mahalaxmi Life Insurace API. Please refer to [Arhant Life Insurance](../Insurance/Arhant Insurance/life.md)
+  
 **Version 7.3, March 23rd 2025**
 
   * Updated [Prabhu docs](../TV/Prabhutv.md)
+
 **Version 7.2, Janaury 9th 2025**
 
   * Updated [Worldlink docs](../Internet/worldlink.md)
