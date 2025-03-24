@@ -248,7 +248,7 @@ The NTC Data Pack API allows you to:
 ##  Payment API
 
 **Request URL:**
-``{{base_url}}/api/servicegroup/use/ntc-package/``
+``{{base_url}}/api/use/ntc-package/``
 
 **Request Method:** `POST`
 
@@ -259,7 +259,9 @@ The NTC Data Pack API allows you to:
 {
     "token": "token",
     "package_id": "package_id",
-    "amount": "amount"
+    "amount": "amount",
+    "reference":"{{$guid}}",
+    "number":"9876541230"
 }
 </code></pre>
 ### Success Response:

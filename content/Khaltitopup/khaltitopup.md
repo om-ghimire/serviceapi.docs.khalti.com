@@ -37,7 +37,7 @@
         "error_message": "Invalid mobile number"
     },
     {
-        "name": "NCell",
+        "name": "Ncell",
         "slug": "ncell",
         "pattern": "(9[8][0-2][0-9]{7})",
         "error_message": "Invalid mobile number"

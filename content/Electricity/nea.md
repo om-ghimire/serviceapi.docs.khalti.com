@@ -15,7 +15,7 @@ This document provides details on how to interact with the Electricity Payment A
 }
 </code></pre>
 
-### Success Response
+#### Success Response
 <pre><code class="json">
 {
     "status": true,
@@ -36,7 +36,7 @@ This document provides details on how to interact with the Electricity Payment A
 }
 </code></pre>
 
-**2. Get details API**
+## 2. Get details API
 
 **URL**:``{{url}}/api/servicegroup/details/nea/`` 
 
@@ -47,16 +47,16 @@ This document provides details on how to interact with the Electricity Payment A
 <pre><code class="json">
 {
     "token": "token",
-    "Sc_no": "customer SC number, e.g. 02A.12.512",
+    "sc_no": "customer sc number, e.g. 02A.12.512",
     "reference": "unique-reference",
-    "Office_code":"one of the 'value' fields from Get Counters response",
+    "office_code":"one of the 'value' fields from Get Counters response",
     "consumer_id": "consumer ID, e.g. 3042"
 }
 </code></pre>
 
-**Note : Sc\_no : 3 alphanumeric string separated by dot.**
+**Note : sc\_no : 3 alphanumeric string separated by dot.**
 
-## Success Response
+### Success Response
 <pre><code class="json">
 {
     "session_id": 5,
@@ -90,7 +90,7 @@ This document provides details on how to interact with the Electricity Payment A
     + Partial payments are allowed.
 
 
-**3**.**Get service charge**  
+## 3. Get service charge
 
 **URL**:`` {{url}}/api/servicegroup/servicecharge/nea/``
 
@@ -101,11 +101,11 @@ This document provides details on how to interact with the Electricity Payment A
 {
     "amount": "Total amount intended to pay",
     "session_id": "value obtained during detail fetch step",
-    "token": "Unique Identifier"
+    "token": "token"
 }
 </code></pre>
 
-## Success Response
+### Success Response
 <pre><code class="json">
 {
     "service_charge": 5.0,
@@ -121,7 +121,7 @@ Calculate the service charge for the payment amount. The service charge applies 
 - For amounts less than 500, the service charge is 0.
 - This API only calculates the charge. The amount provided to the Make Payment API should exclude the service charge.
 
-**4**. **Make Payment**
+## 4. Make Payment
 
 **URL**: ``{{url}}/api/servicegroup/commit/nea/``
 
@@ -130,6 +130,7 @@ Calculate the service charge for the payment amount. The service charge applies 
 **Response Body**
 <pre><code class="json">
 {
+    "token": "token",
     "amount": "Total amount intended to pay (excluding service charge)",
     "session_id": "value obtained during detail fetch step",
     "reference": "unique reference"

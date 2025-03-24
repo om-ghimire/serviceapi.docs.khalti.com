@@ -1,15 +1,29 @@
 site_name: Khalti Services Documentation
 nav:
   - Introduction: index.md
-  - Service Layer State: Servicescodes/statecode.md
-  - Khalti Topup: Khaltitopup/khaltitopup.md
+  - Service Status Check : 
+      - State List: Servicescodes/statecode.md
+      - DLR: Servicescodes/dlr.md
+      - Service Balance Check: Servicescodes/balance_check.md
+      - Service LookUp API: Servicescodes/lookup.md
+      - Bulk Service Lookup: Servicescodes/bulkservice.md
   - Mobile TopUp:
-        - Nepal Telecom: MobileTopup/nepal_telecom.md
+        - Khalti Topup: Khaltitopup/khaltitopup.md
+        - NTC: MobileTopup/nepal_telecom.md
         - Ncell: MobileTopup/ncell.md
+  - Data Packs:
+      - Ncell DataPacks: datapacks/NcellProduct.md
+      - NTC DataPacks: datapacks/ntcProduct.md
+
+      
   - Electricity: Electricity/nea.md
-  - PSTN (Landline): PSTN/landline.md
-  - Khanepani: Khanepani/khanepani.md
- 
+  - Khanepani: 
+      - Community Khanepani: Khanepani/khanepani.md
+      - Kukl:
+          - Counter : Khanepani/Kukl/counter.md 
+          - Kukl Details: Khanepani/Kukl/Kukl-Details.md
+          - Kukl Service Charge: servicecharge/service-charge.md
+          - KUKL Payment: Khanepani/Kukl/Kukl-payment.md
   - TV :
     - Nettv:  TV/nettv.md
     - SimTV: TV/simtv.md
@@ -22,8 +36,9 @@ nav:
 
   - Internet:
     - Worldlink: Internet/worldlink.md
-    - Vianet: Internet/vianet.md
+    - Vianet: Internet/vianet-new.md
     - Adsl: Internet/adsl.md
+    - NTFTTH : Internet/ntftth.md
     - Dishhome: Internet/dishhome.md
     - Subisu: Internet/subisu.md
     - Classic Tech: Internet/classictech.md
@@ -42,13 +57,23 @@ nav:
     - Nijgad Cable: Internet/nijgad_cable.md
     - Net Max: Internet/netmax.md
     - Dolfin Internet: Internet/dolfin-internet.md
-    - NtFtth : Internet/ntftth.md
     - HashCNet V1: Internet/hashcnet/v1.md
     - HashCNet V2: Internet/hashcnet/v2.md
     - Fibertel Fibernet: Internet/Fibertel.md
     - Rapid Unique Net: Internet/rapidapi.md
     - GRS Internet: Internet/grs-internet.md
     - Infonet Technology: Internet/infonet.md
+    - Merosoft: Internet/merosoft.md
+    - Konnect: Internet/konnect.md
+    - Kriti Darshan: Internet/kriti-darshan.md
+    - Chitrawan Unique Net: Internet/chitrawan.md
+    - Airlink Communication: Internet/airlink.md
+    - 3G Vision: Internet/3g-vision.md
+    - First Link: Internet/first-link.md
+    - Sky Broadband: Internet/sky-broadband.md
+    - Vianet (old): Internet/vianet.md
+    
+
   - Insurance: 
       - Non life Insurances:
           - Arhant Non-Life Insurances: Insurance/Arhant Insurance/non_life.md 
@@ -56,7 +81,7 @@ nav:
           - Neco Insurance:  Insurance/neco_insurance.md
           - Sagarmatha Lumbini Insurance: Insurance/sagarmatha_insurance.md
           - Nepal Non Life Insurance: Insurance/nepal_non_life.md
-          # - Insurance: Insurance/Himalayan Insurance/hg-general-insurance.md
+          - Himalayan General Insurance: Insurance/Himalayan Insurance/hg-general-insurance.md
   
       - Life Insurances:
         - Arhant Life Insurance : Insurance/Arhant Insurance/life.md 
@@ -72,10 +97,8 @@ nav:
         - Prabhu Life: Insurance/prabhu_life.md
         - Nepal Life Insurance: Insurance/Nepal/nepal_Life_Insurace.md
         
-  - Rc Card: Rc card/rccard.md
-  - Data Packs:
-      - Ncell DataPacks: datapacks/NcellProduct.md
-      - NTC DataPacks: datapacks/ntcProduct.md
+  
+
 
   - Community Electricity:
     - Himchuli Electricity: Electricity/Himchuli.md
@@ -86,20 +109,30 @@ nav:
   - Cable Car: Cable Car/cablecar.md
 
   - Antivirus:
+      - Kaspersky Antivirus: antivirus/kaspersky.md
       - Eset Antivirus: antivirus/eset.md
       - K7 Antivirus: antivirus/k7.md
       - Wardwiz Antivirus: antivirus/wardwiz.md
       - Mcafee Antivirus: antivirus/mcafee.md
+
 
   - Ride:
       - CABTM: Ride/cabtm.md
       - Tottle: Ride/tootle.md
 
   - Bluebook: bluebook/bluebook.md
+  - PSTN (Landline): PSTN/landline.md
+  - Bus: 
+    - Routes: Bus/route.md
+    - Search: Bus/search.md
+    - Seat: Bus/seat.md
+    - Book Bus: Bus/bus-booking.md
+    - Add info: Bus/add-info.md
+    - Payment: Bus/payment.md
+    - Download Ticket: Bus/ticket-download.md
 
-  - Service Balance Check: Servicescodes/balance_check.md
-  - Service LookUp API: Servicescodes/lookup.md
-  - Bulk Service Lookup: Servicescodes/bulkservice.md
+  - Rc Card: Rc card/rccard.md
+
   - Changelog: Servicescodes/changelog.md
   - FAQ's: Servicescodes/faq.md
 

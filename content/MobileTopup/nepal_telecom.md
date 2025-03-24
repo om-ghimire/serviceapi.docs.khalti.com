@@ -32,10 +32,14 @@ The request body should be in JSON format:
     
 <pre><code class="json">
 {
-    "token": "Token Provided",
-    "reference": "unique-reference",
-    "amount": "amount",
-    "number": "number"
+    "status": true,
+    "state": "Success",
+    "message": "Successfully Completed Transaction",
+    "extra_data": {},
+    "detail": "Transaction successful",
+    "credits_consumed": 1000,
+    "credits_available": 1e+24,
+    "id": 163
 }
 </code></pre>
 
