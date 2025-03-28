@@ -33,3 +33,18 @@ The following parameters are required in the POST request:
     "number": "number(eg:9801234567)"
 }
 </code></pre>
+
+
+## Success Response Format
+<pre><code class="json">
+{
+    "status": true,
+    "state": "Success",
+    "message": "Successfully Completed Transaction",
+    "extra_data": {},
+    "detail": "Transaction successful",
+    "credits_consumed": 1000,
+    "credits_available": 1e+24,
+    "id": 163
+}
+</code></pre>

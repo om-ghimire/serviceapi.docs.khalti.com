@@ -28,7 +28,7 @@ The request body should be in JSON format:
 }
 </code></pre>
 
-## Response Format
+## Success Response Format
     
 <pre><code class="json">
 {
