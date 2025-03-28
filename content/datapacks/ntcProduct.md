@@ -270,6 +270,7 @@ The NTC Data Pack API allows you to:
 
 {
     "status": true,
+    "state": "Success",
     "detail": {
         "transaction_id": "transaction_id",
         "amount": "amount",
