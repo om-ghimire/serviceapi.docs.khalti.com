@@ -130,7 +130,7 @@ nav:
     - Add info: Bus/add-info.md
     - Payment: Bus/payment.md
     - Download Ticket: Bus/ticket-download.md
-
+  - Social Security Fund: ssf/ssf.md
   - Rc Card: Rc card/rccard.md
 
   - Changelog: Servicescodes/changelog.md
@@ -163,10 +163,8 @@ extra_css:
   - style/extra.css
 docs_dir: content 
 site_dir: docs
-repo_name: "khalti/serviceapi.docs.khalti.com"
-repo_url: "https://github.com/khalti/serviceapi.docs.khalti.com/"
-edit_uri: "edit/main/content/"
-copyright: "Copyright &copy; 2024 Khalti Private Limited"
+
+copyright: "Copyright &copy; 2025 Khalti Private Limited"
 
 extra:
   social:
