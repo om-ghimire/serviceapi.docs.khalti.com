@@ -15,10 +15,8 @@ The RC Card API allows you to process recharge operations for various service pr
 
 - **dishhome-erc**
 - **ntc-erc**
-- **utl-erc** (Deprecated)
 - **smart-erc**
 - **broadlink-erc**
-- **nettv-erc** (Deprecated)
 
 ### Valid Amounts
 
