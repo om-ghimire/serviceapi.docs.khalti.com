@@ -24,6 +24,7 @@ nav:
           - Kukl Details: Khanepani/Kukl/Kukl-Details.md
           - Kukl Service Charge: servicecharge/service-charge.md
           - KUKL Payment: Khanepani/Kukl/Kukl-payment.md
+
   - TV :
     - Nettv:  TV/nettv.md
     - SimTV: TV/simtv.md
@@ -71,7 +72,6 @@ nav:
     - 3G Vision: Internet/3g-vision.md
     - First Link: Internet/first-link.md
     - Sky Broadband: Internet/sky-broadband.md
-    - Vianet (old): Internet/vianet.md
     
 
   - Insurance: 
@@ -81,7 +81,7 @@ nav:
           - Neco Insurance:  Insurance/neco_insurance.md
           - Sagarmatha Lumbini Insurance: Insurance/sagarmatha_insurance.md
           - Nepal Non Life Insurance: Insurance/nepal_non_life.md
-          - Himalayan General Insurance: Insurance/Himalayan Insurance/hg-general-insurance.md
+
   
       - Life Insurances:
         - Arhant Life Insurance : Insurance/Arhant Insurance/life.md 
@@ -99,6 +99,8 @@ nav:
         
   
 
+  - EMI:
+    - Maw EMI: maw/maw.md
 
   - Community Electricity:
     - Himchuli Electricity: Electricity/Himchuli.md

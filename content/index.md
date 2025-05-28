@@ -2,9 +2,9 @@
 # **Khalti Services Documentation**
 
 
-## *Version 7.5*
+## *Version 7.6*
 
-## *Last Update 19 May, 2025*
+## *Last Update 28 May, 2025*
 
 **Check the [Change Log]( Servicescodes/changelog.md) here.**
 
