@@ -133,6 +133,22 @@ nav:
     - Payment: Bus/payment.md
     - Download Ticket: Bus/ticket-download.md
   - Social Security Fund: ssf/ssf.md
+
+
+
+  - Flight:
+    - Sector : flight/sector.md 
+    - Search Flight: flight/search.md
+    - Book Flight: flight/book.md
+    - Add info: flight/addinfo.md
+    - Issue Ticket: flight/issue.md
+    - Cancel Flight: flight/cancel.md
+    - Ticket Download: flight/ticketdownload.md
+    - Flight LookUp: flight/flight-lookup.md
+    - Flight Status: flight/flightstatus.md
+    - Flight Info: flight/info.md  
+    - Flight FAQ: flight/faq.md
+
   - Rc Card: Rc card/rccard.md
 
   - Changelog: Servicescodes/changelog.md

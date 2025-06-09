@@ -9,7 +9,7 @@
 
 
 
-**URL:** [{{base_url}}/api/servicegroup/details/maw-emi/](base_url/api/servicegroup/details/maw-emi/)  
+**URL:** `{{base_url}}/api/servicegroup/details/maw-emi/`
 **Method:** POST
 
 ### Request Parameters
@@ -94,7 +94,7 @@ The following parameters are required in the POST request:
 
 ## Make Payment
 
-**URL:** [{{base_url}}/api/servicegroup/commit/maw-emi/](base_url/api/servicegroup/commit/maw-emi/)  
+**URL:** `{{base_url}}/api/servicegroup/commit/maw-emi/`
 **Method:** POST
 
 
@@ -146,14 +146,4 @@ The following parameters are required in the POST request:
 | credits_available | float | Remaining available credits |
 | id | integer | Transaction ID | # MAW EMI Service
 
-**URL:** [{{base_url}}/api/servicegroup/details/maw-emi/](base_url/api/servicegroup/details/maw-emi/)  
-**Method:** POST
 
-### Request Parameters
-
-The following parameters are required in the POST request:
-
-- **reference:** Unique reference ID for the request
-- **client_code:** Client code for the merchant
-- **service_slug:** Service identifier (maw)
-- **token:** Authentication token
