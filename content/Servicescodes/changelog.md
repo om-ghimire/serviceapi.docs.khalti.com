@@ -1,4 +1,9 @@
 ## **Change Log**
+
+**Version 7.7, June 9th 2025**
+
+  * New Document For Flight. Please refer to [Flight ](../flight/sector.md)
+
 **Version 7.6, May 19th 2025**
 
   * New Document For MAW. Please refer to [MAW ](../maw/maw.md)

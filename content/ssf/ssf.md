@@ -6,7 +6,7 @@ The SSF API provides endpoints for checking details and making payments to the S
 
 ## Details Endpoint
 
-**URL:** [{{base_url}}/api/servicegroup/details/social-security-fund/](base_url/api/servicegroup/details/social-security-fund/)  
+**URL:** `{{base_url}}/api/servicegroup/details/social-security-fund/`
 **Method:** POST
 
 ### Request Parameters
@@ -48,7 +48,7 @@ The following parameters are required in the POST request:
 
 ## Payment Endpoint
 
-**URL:** [{{base_url}}/api/servicegroup/commit/social-security-fund/](base_url/api/servicegroup/commit/social-security-fund/)  
+**URL:** `{{base_url}}/api/servicegroup/commit/social-security-fund/`
 **Method:** POST
 
 ### Request Parameters
