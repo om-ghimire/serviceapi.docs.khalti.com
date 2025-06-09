@@ -27,8 +27,8 @@ The request parameters should be provided in JSON format. Parameters vary based 
     "from": "<Origin sector code, e.g., 'PKR' for Pokhara>",
     "to": "<Destination sector code>",
     "token": "<provided_token>",
-    "reference": "<unique_identifier>"
-    "na
+    "reference": "<unique_identifier>",
+    "nationality":"NP for Nepal" // IN for India
 }
 </code></pre>
 
