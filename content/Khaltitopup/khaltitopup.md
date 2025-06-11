@@ -33,13 +33,13 @@
     {
         "name": "NTC",
         "slug": "ntc",
-        "pattern": "(9[8][46][0-9]{7})",
+        "pattern": "^([9][78][46][0-9]{7}|9[0][4][01][0-9]{6})$",
         "error_message": "Invalid mobile number"
     },
     {
         "name": "Ncell",
         "slug": "ncell",
-        "pattern": "(9[8][0-2][0-9]{7})",
+        "pattern": "^[9](80|81|82|70)[0-9]{7}$",
         "error_message": "Invalid mobile number"
     },
     {
@@ -51,13 +51,13 @@
     {
         "name": "NT CDMA",
         "slug": "nt-cdma",
-        "pattern": "(9[7][4-5][0-9]{7})",
+        "pattern": "^([9][78][46][0-9]{7}|9[0][4][01][0-9]{6})$",
         "error_message": "Invalid mobile number"
     },
     {
         "name": "NT Postpaid",
         "slug": "nt-postpaid",
-        "pattern": "(9[8][5][0-9]{7})",
+        "pattern": "^([9][78][5][0-9]{7})$",
         "error_message": "Invalid mobile number"
     }
 ]

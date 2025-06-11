@@ -1,4 +1,8 @@
 ## **Change Log**
+**Version 7.8, June 11th 2025**
+
+  * Update Regex For Topup. Please refer to [MobileTopup](../Khaltitopup/khaltitopup.md)
+
 
 **Version 7.7, June 9th 2025**
 
