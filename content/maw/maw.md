@@ -10,6 +10,7 @@
 
 
 **URL:** `{{base_url}}/api/servicegroup/details/maw-emi/`
+
 **Method:** POST
 
 ### Request Parameters
