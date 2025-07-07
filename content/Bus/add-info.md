@@ -21,7 +21,7 @@ This document describes the API for adding passenger information after booking a
     "boarding_point": "{{boarding_point}}",
     "email": "test@okay.com",
     "name": "TEST",
-    "seats": "[{\"seat\":\"{{seat1}}\",\"fullName0\":\"test trest A\",\"nationality\":\"nepali\",\"age0\":\"25\"},{\"seat\":\"{{seat2}}\",\"fullName0\":\"test trest A\",\"nationality\":\"nepali\",\"age0\":\"25\"}]"
+    "seats": "[{\"seat\":\"{{seat1}}\",\"fullName0\":\"test trest A\",\"nationality\":\"nepali\",\"age0\":\"25\"},{\"seat\":\"{{seat2}}\",\"fullName1\":\"test trest A\",\"nationality\":\"nepali\",\"age1\":\"25\"}]"
 }
 </code></pre>
 
