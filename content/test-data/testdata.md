@@ -1,4 +1,4 @@
-# Khalti Staging Server Services Data
+# Khalti Staging  Services Data
 
 
 ## Testing Guidelines
