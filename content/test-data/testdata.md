@@ -1,3 +1,16 @@
+# Khalti Staging Server Services Data
+
+
+## Testing Guidelines
+- **Tokens**: Use the specified token (Test or LIVE) for each service.
+- **Test Data**: Ensure test data matches the provided format (e.g., phone numbers, customer IDs) to avoid errors.
+- **Multi-Step Services**: Follow the sequence of steps as required by the service (e.g., fetching details before payment).
+- **Error Handling**: Test both success and failure scenarios where applicable (e.g., NTC Topup failed number).
+- **Environment**: Always use the staging server for testing unless specified otherwise (e.g., SKY Cable uses LIVE server).
+
+## Services
+
+
 | Services Added for Testing | Server | TOKEN TO USE | Type | Online/Offline | Single/Multi Step | Test Data | Remarks |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
 | Khalti topup | Staging | Test | Topup | Online | single step | 9843576795, 9818154883, 9818136968 |  |
