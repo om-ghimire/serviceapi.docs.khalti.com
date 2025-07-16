@@ -162,7 +162,7 @@ nav:
 theme:
   name: material
   custom_dir: overrides
-  favicon: "https://d7vw40z4bofef.cloudfront.net/static/2.59.12-web19/images/favicon.png"
+  favicon: "https://cdn.nayathegana.com/media/2025/07/13/23471783407643cb921f718ed30726b9.png"
   icon:
     logo: "img/khalti_logo"
   palette:
@@ -186,7 +186,7 @@ extra_css:
 docs_dir: content 
 site_dir: docs
 
-copyright: "Copyright &copy; 2025 Khalti Private Limited"
+copyright: "Copyright &copy; 2025 IME Khalti Private Limited"
 
 extra:
   social:
