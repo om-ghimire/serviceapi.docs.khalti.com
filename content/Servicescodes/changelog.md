@@ -1,4 +1,12 @@
 ## **Change Log**
+**Version 8.0, August 4rd 2025**
+
+  * Added SIP Payments. Please refer to SIP Payments
+  * Added National life Insurance . Please refer to [National life Insurance](../insurance/national-life-insurance.md)
+  * Added Metlife  Please refer to [National life Insurance](../insurance/national-life-insurance.md)
+  * Added Himalayan Insurance  Please refer to [Himalayan Insurance](../insurance/himalaya-insurance.md)
+  * Added BPC 
+
 **Version 7.9, July 14th 2025**
 
   * Added Test Data. Please refer to [Test Data](../test-data/testdata.md)
