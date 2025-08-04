@@ -4,7 +4,7 @@
 
 ## *Version 8.0*
 
-## *Last Update  4rd August , 2025*
+## *Last Update  4th August , 2025*
 
 **Check the [Change Log]( Servicescodes/changelog.md) here.**
 
