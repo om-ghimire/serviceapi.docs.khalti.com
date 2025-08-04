@@ -84,6 +84,7 @@ nav:
 
   
       - Life Insurances:
+        - Metlife Insurance: Insurance/metlife.md
         - Arhant Life Insurance : Insurance/Arhant Insurance/life.md 
         - Surya Life Insurance: Insurance/surya/Suryalife.md
         - Sanima Insurance: Insurance/Reliance Insurance/reliance_insurance.md    
@@ -96,6 +97,8 @@ nav:
         - IME General Insurance: Insurance/ime/ime_general.md
         # - Prabhu Life: Insurance/prabhu_life.md (Updated to Arahnt Life Insurance)
         - Nepal Life Insurance: Insurance/Nepal/nepal_Life_Insurace.md
+        - Himalayan Life Insurance: Insurance/himalaya-insurance.md
+        - National Life Insurance: Insurance/national-life-insurance.md
         
   
 
@@ -107,6 +110,7 @@ nav:
     - Watermark Electricity: Electricity/watermark.md
     - Dreamer Electricity: Electricity/dreamer.md
     - Softlab Electricity: Electricity/softlab.md
+    - BPC Electricity: Electricity/bpc.md
 
   - Cable Car: Cable Car/cablecar.md
 
@@ -148,6 +152,27 @@ nav:
     - Flight Status: flight/flightstatus.md
     - Flight Info: flight/info.md  
     - Flight FAQ: flight/faq.md
+
+
+  - SIP:
+    - Kumari SIP: 
+        - SIP info: sip/kumari-sip/sip-info.md
+        - BOID validation: sip/kumari-sip/boid-validate.md
+        - SIP Registration: sip/kumari-sip/sip-registration.md
+        - Lumspum Payment: sip/kumari-sip/lumpsum-payment.md
+        - SIP :
+          - SIP Details : sip/kumari-sip/sip/sip-payment-details.md
+          - SIP Payment: sip/kumari-sip/sip/sip-payment-payment.md
+
+  # - Meroshare & Demat :
+  #   - Counter: CDSC/dp-counter.md
+  #   - Details: CDSC/details.md
+  #   - Payment: CDSC/payment.md
+
+
+
+
+
 
   - Test Data:
       - Test Data: test-data/testdata.md
