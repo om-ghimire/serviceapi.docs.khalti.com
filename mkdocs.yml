@@ -149,6 +149,21 @@ nav:
     - Flight Info: flight/info.md  
     - Flight FAQ: flight/faq.md
 
+
+  - SIP:
+    - Kumari SIP: 
+        - SIP info: sip/kumari-sip/sip-info.md
+        - BOID validation: sip/kumari-sip/boid-validate.md
+        - SIP Registration: sip/kumari-sip/sip-registration.md
+        - SIP :
+          - SIP Details : sip/kumari-sip/sip/sip-payment-details.md
+          - SIP Payment: sip/kumari-sip/sip/sip-payment-payment.md
+
+
+
+
+
+
   - Test Data:
       - Test Data: test-data/testdata.md
   
