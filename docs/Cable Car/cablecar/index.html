@@ -4249,20 +4249,16 @@
 <p><strong>Request Method:</strong> POST</p>
 <p><strong>Service Params:</strong></p>
 <pre><code class="json">
-{
+
+{ 
     "token": "{{token}}",
-    "reference": "unique reference",
-    "session_id": "session_id", // obtained from Detail Fetch API
-    "trip_type": "One Way/Two Way", // obtained from Detail Fetch API
-    "contact_name": "contact_name",
-    "mobile_number": "mobile_number",
-    "tickets": [
-        {
-            "passenger_type": "passenger_type", // obtained from Detail Fetch API
-            "passenger_count": passenger_count
-        }
-    ],
-    "amount": "amount" // obtained from Detail Fetch API
+    "reference": "{{$guid}}",
+    "session_id":{{session_id}}, // obtained from Detail Fetch API
+    "trip_type":"{{trip_type}}",, // obtained from Detail Fetch API
+    "contact_name":"Udeep Shrestha",
+    "mobile_number":"9849324652",
+    "tickets":"[{\"passenger_type\":\"{{passenger_type}}\",\"passenger_count\":passenger_count}]",// passenger_type obtained from Detail Fetch API
+    "amount":"{{price}}"// obtained from Detail Fetch API * number of passenger count 
 }
 </code></pre>
 
