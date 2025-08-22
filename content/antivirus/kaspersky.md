@@ -8,7 +8,7 @@ This document outlines the API for **Kaspersky Antivirus**, which includes funct
 
 ## 1. Package Details Fetch API
 
-**Request URL:** `{{base_url}}/api/servicegroup/details/antivirus-service/a`
+**Request URL:** `{{base_url}}/api/servicegroup/details/antivirus-service/`
 
 **Request Method:** POST
 
