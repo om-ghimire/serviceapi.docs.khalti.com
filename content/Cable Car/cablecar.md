@@ -115,6 +115,7 @@ Please find the name of the cable car and their respective slug.
 
 **Response:**
 
+
 <pre><code class="json">
 {
     "status": true,

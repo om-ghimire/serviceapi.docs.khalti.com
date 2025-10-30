@@ -22,7 +22,7 @@
 | Smartcell | Staging | LIVE | Topup | Online | single step | number: 9880123456 |  |
 | Dishhome ERC | Staging | LIVE | ERC | Online | single step |  |  |
 | Nepal Telecom ERC | Staging | LIVE | ERC | Online | single step |  |  |
-| NEA | Staging | TEST | Electricity | Online | multi step | counter : RATNAPARK DC sc\_no: 024.12.512, Consumer\_id: 3042 sc\_no:002.13.071 consumer\_id:18795 office\_code:201:ratnapark-dc | Minimum amount a user can pay \= payable\_amount of oldest month |
+| NEA                        | Staging | TEST         | Electricity | Online         | multi step        | counter: Bhaktapur dc <br> sc_no: 024.12.512, Consumer_id: 3042 <br> sc_no: 002.13.071, Consumer_id: 18795 <br> sc_no: 003.15.099, Consumer_id: 154, Office_code: 245:bhaktapur-dc <br> sc_no: 004.16.101, Consumer_id: 222, Office_code: 245:bhaktapur-dc <br> sc_no: 005.17.202, Consumer_id: 333, Office_code: 245:bhaktapur-dc <br> sc_no: 006.18.303, Consumer_id: 555, Office_code: 245:bhaktapur-dc | - Minimum amount a user can pay = payable_amount of oldest month <br> - 154: Rebate <br> - 222: Error / Multiple payment not allowed same day <br> - 333: Penalty <br> - 555: Normal User |
 | Khanepani | Staging | TEST | Water | Online | multi step | customer\_code: 12, counter: 3123123:itahari-khanepani customer\_code:110011 counter:268:sandhikharka-khanepani |  |
 | Dishhome | Staging | TEST | TV | Online | multi step | Cas id: 71909771942 |  |
 | MeroTV | Staging | TEST | TV | Online | multi step | smart card id: 5000684178 |  |
