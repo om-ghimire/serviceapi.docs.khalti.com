@@ -1,4 +1,9 @@
 ## **Change Log**
+
+**Version 8.1, November 27th 2025**
+
+  * Vendor switch for Techminds . Please refer to [Techminds](../internet/hashcnet/v2.md)
+
 **Version 8.0, August 4rd 2025**
 
   * Added SIP Payments. Please refer to SIP Payments
