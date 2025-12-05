@@ -1,5 +1,9 @@
 ## **Change Log**
 
+**Version 8.2, Dec 5th 2025**
+
+  * Meroshare and Demat document added.
+
 **Version 8.1, November 27th 2025**
 
   * Vendor switch for Techminds . Please refer to [Techminds](../internet/hashcnet/v2.md)
