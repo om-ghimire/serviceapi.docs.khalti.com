@@ -2,9 +2,9 @@
 # **Khalti Services Documentation**
 
 
-## *Version 8.1*
+## *Version 8.2*
 
-## *Last Update  27th november , 2025*
+## *Last Update 5th Dec , 2025*
 
 **Check the [Change Log]( Servicescodes/changelog.md) here.**
 

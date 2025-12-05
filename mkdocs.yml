@@ -121,7 +121,12 @@ nav:
       - Wardwiz Antivirus: antivirus/wardwiz.md
       - Mcafee Antivirus: antivirus/mcafee.md
 
+  - Meroshare & Demat :
+    - Counter: CDSC/dp-counter.md
+    - Details: CDSC/details.md
+    - Payment: CDSC/payment.md
 
+    
   - Ride:
       - CABTM: Ride/cabtm.md
       - Tottle: Ride/tootle.md
