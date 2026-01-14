@@ -82,9 +82,10 @@ nav:
           - Sagarmatha Lumbini Insurance: Insurance/sagarmatha_insurance.md
           - Nepal Non Life Insurance: Insurance/nepal_non_life.md
 
-  
+      
+      
       - Life Insurances:
-        - Metlife Insurance: Insurance/metlife.md
+        - Metlife Insurance: Insurance/metlife.md 
         - Arhant Life Insurance : Insurance/Arhant Insurance/life.md 
         - Surya Life Insurance: Insurance/surya/Suryalife.md
         - Sanima Insurance: Insurance/Reliance Insurance/reliance_insurance.md    
@@ -95,11 +96,11 @@ nav:
         - Citizen Life Insurance: Insurance/Citizen/citizen.md
         - Surya Life Insurance First Payment:  Insurance/surya/surya_life_insurance.md
         - IME General Insurance: Insurance/ime/ime_general.md
-        # - Prabhu Life: Insurance/prabhu_life.md (Updated to Arahnt Life Insurance)
         - Nepal Life Insurance: Insurance/Nepal/nepal_Life_Insurace.md
         - Himalayan Life Insurance: Insurance/himalaya-insurance.md
         - National Life Insurance: Insurance/national-life-insurance.md
-        
+
+      - Loan Repayment : Insurance/Arhant Insurance/Life Loan Repayment/arhant-loan-repayment.md  
   
 
   - EMI:
@@ -168,12 +169,6 @@ nav:
         - SIP :
           - SIP Details : sip/kumari-sip/sip/sip-payment-details.md
           - SIP Payment: sip/kumari-sip/sip/sip-payment-payment.md
-
-  # - Meroshare & Demat :
-  #   - Counter: CDSC/dp-counter.md
-  #   - Details: CDSC/details.md
-  #   - Payment: CDSC/payment.md
-
 
 
 
