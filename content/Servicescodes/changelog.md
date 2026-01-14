@@ -1,5 +1,8 @@
 ## **Change Log**
 
+**Version 8.3, Jan 14th 2026**
+
+  * Arhant Life Insurance - Loan Repayment.
 **Version 8.2, Dec 5th 2025**
 
   * Meroshare and Demat document added.
