@@ -42,8 +42,8 @@ nav:
     - NTFTTH : Internet/ntftth.md
     - Dishhome: Internet/dishhome.md
     - Subisu: Internet/subisu.md
-    - Classic Tech: Internet/classictech.md
-    - Wifi Nepal: Internet/wifi-nepal.md
+    # - Classic Tech: Internet/classictech.md
+    # - Wifi Nepal: Internet/wifi-nepal.md
     - Broadlink: Internet/broadlink.md
     - Times Internet: Internet/timesinternet.md
     - Arrownet: Internet/arrownet.md
