@@ -1,4 +1,4 @@
-# **{SERVICE_NUMBER}. Waste Management**
+# **Waste Management**
 
 Please find the name of the waste management services and their respective slugs.
 
