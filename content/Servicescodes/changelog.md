@@ -1,8 +1,16 @@
 ## **Change Log**
 
+**Version 8.4, Feb 10th 2026**
+
+  * Wifi nepal new Docs Updated Please Refer to [Wifi Nepal](../Internet/wifi-nepal.md).
+  * Waste Management New Service Added Please Refer to [Waste Management](../waste/waste-mgmt.md)
+
+
 **Version 8.3, Jan 14th 2026**
 
   * Arhant Life Insurance - Loan Repayment.
+
+
 **Version 8.2, Dec 5th 2025**
 
   * Meroshare and Demat document added.
