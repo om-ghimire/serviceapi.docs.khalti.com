@@ -127,6 +127,8 @@ nav:
     - Details: CDSC/details.md
     - Payment: CDSC/payment.md
 
+  - Waste Management:
+    - Waste Management: waste/waste-mgmt.md
     
   - Ride:
       - CABTM: Ride/cabtm.md
