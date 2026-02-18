@@ -1,5 +1,9 @@
 ## **Change Log**
 
+**Version 8.5, Feb 10th 2026**
+
+  * eChalan new Services Added Please Refer to [echalan](../gov-payment/echalan.md).
+  * Gov Payment New service Added Please Refer to [Gov Payment](../gov-payment/gov-payment.md).
 **Version 8.4, Feb 10th 2026**
 
   * Wifi nepal new Docs Updated Please Refer to [Wifi Nepal](../Internet/wifi-nepal.md).

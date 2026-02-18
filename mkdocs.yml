@@ -146,6 +146,9 @@ nav:
     - Download Ticket: Bus/ticket-download.md
   - Social Security Fund: ssf/ssf.md
 
+  - Gov Payment:
+    - eChalan: gov-payment/echalan.md
+    - Gov Payment: gov-payment/gov-payment.md
 
 
   - Flight:
