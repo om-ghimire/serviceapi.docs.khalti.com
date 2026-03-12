@@ -104,7 +104,10 @@ nav:
   
 
   - EMI:
-    - Maw EMI: maw/maw.md
+    - Maw EMI: EMI/maw/maw.md
+    - Synergy EMI: EMI/synergy/synergy.md
+    -  Code Himalayan Emi: EMI/code-himalayan-emi/code-himalayan-emi.md
+
 
   - Community Electricity:
     - Himchuli Electricity: Electricity/Himchuli.md
@@ -145,7 +148,7 @@ nav:
     - Payment: Bus/payment.md
     - Download Ticket: Bus/ticket-download.md
   - Social Security Fund: ssf/ssf.md
-
+  - Central Zoo: central-zoo/zoo.md
   - Gov Payment:
     - eChalan: gov-payment/echalan.md
     - Gov Payment: gov-payment/gov-payment.md
