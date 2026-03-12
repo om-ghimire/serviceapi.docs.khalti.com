@@ -1,90 +1,141 @@
-# 11.5 Surya Jyoti Life Insurance API
+# Surya Jyoti Life Insurance Service API Documentation
 
-**Note**: Jyoti and Surya Life Insurance have merged. Please use the Surya Life Insurance API.
+The **Surya Jyoti Life Insurance Service** allows you to fetch policy details and make premium payments for life insurance policies. This documentation explains the API endpoints for retrieving policy details and processing payments.
 
-## Overview
+---
 
-The Surya Jyoti Life Insurance API provides functionalities for retrieving policy details and processing payments for Surya Life Insurance policies. The API involves two main operations:
+## Details Fetch
 
-1. **Detail Fetch API**: Retrieves detailed information about an insurance policy using the policy number and date of birth.
-   
-2. **Payment API**: Processes payments for the insurance policy using the information retrieved from the Detail Fetch API.
+  
+**URL:** `{{base_url}}/api/servicegroup/details/surya-life-insurance/`  
 
-## Surya Jyoti Life Detail Fetch API
+**Method:** POST
 
-**Request URL**: {{base_url}}/api/servicegroup/details/surya-life-insurance/
+### Request Parameters
 
-**Request Method**: POST
+The following parameters are required in the POST request:
 
-**Service Params**:
+- **token:** Authentication token  
+- **reference:** Unique reference ID for the request  
+- **dob:** Date of birth of the policyholder (`YYYY-MM-DD`)  
+- **date_type:** Type of date (`AD` or `BS`)  
+- **policy_number:** Policy number  
+- **service_slug:** Service identifier (`surya-life-insurance` for staging, `surya-jyoti-life-insurance` for live)  
+
+### Request Example
 
 <pre><code class="json">
 {
-    "token": "<token>",
-    "policy_no": "7000000019",
-    "dob": "1988-02-21",
-    "reference": "<unique reference id>"
+    "reference": "d5b8e6b5-ac8c-4475-90b3-103a57d3ae7c",
+    "dob": "2014-08-09",
+    "date_type": "AD",
+    "policy_number": "405003539",
+    "token": "{{token}}",
+    "service_slug": "surya-life-insurance"
 }
 </code></pre>
 
-**Success Response**:
+### Response Example
 
 <pre><code class="json">
 {
-    "policy_no": "207001096",
-    "plan_code": "71",
-    "pay_mode": "YRLY",
-    "name": "Ram Thakur",
-    "premium_amount": 10211,
-    "fine_amount": 85,
-    "adjustment_amount": 0,
-    "amount": "10296",
-    "payment_date": "06/07/2023",
-    "due_date": "20/05/2023",
-    "next_due_date": "20/05/2024",
-    "policy_status": "ACTIVE",
-    "term": "15",
-    "maturity_date": "20/05/2025",
-    "session_id": 9470,
+    "details": [
+        {
+            "policynumber": "20800000083",
+            "assuredname": "Rita Sene (Khapung)",
+            "gender": "FEMALE",
+            "plancode": "151",
+            "plan": "SuryaJyoti Sawadhik Jeevan Beema",
+            "dobassured": "1990-10-02T00:00:00",
+            "sumassured": 300000,
+            "periodicpremium": 21515,
+            "premiumtermyear": 15,
+            "policytermyear": 15,
+            "maturedate": "2038-09-17T00:00:00",
+            "paymode": "YRLY",
+            "mobile": "9860946708",
+            "docdate": "2023-09-17T00:00:00",
+            "recpayable": 0,
+            "anticipateadjamount": 0,
+            "fromduedate": "2025-09-17T00:00:00",
+            "uptoduedate": "2025-09-17T00:00:00",
+            "totalinterest": 0,
+            "totalpremium": 21515,
+            "totaldue": 21515,
+            "dueinstallment": 1,
+            "lastpremiumpaydate": "2037-09-17T00:00:00",
+            "totaldueafteradjrecpay": 21515
+        }
+    ],
+    "session": 41550,
     "status": true
 }
 </code></pre>
 
-**Error Response**:
+### Response Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| details | array | Array of policy details |
+| details.policynumber | string | Policy number |
+| details.assuredname | string | Policyholder name |
+| details.gender | string | Gender of policyholder |
+| details.plancode | string | Plan code |
+| details.plan | string | Plan name |
+| details.dobassured | string | Date of birth of the assured |
+| details.sumassured | float | Sum assured |
+| details.periodicpremium | float | Periodic premium amount |
+| details.premiumtermyear | integer | Premium term in years |
+| details.policytermyear | integer | Policy term in years |
+| details.maturedate | string | Policy maturity date |
+| details.paymode | string | Payment mode (e.g., YRLY) |
+| details.mobile | string | Mobile number |
+| details.docdate | string | Date of document creation |
+| details.recpayable | float | Receivable amount |
+| details.anticipateadjamount | float | Anticipated adjustment amount |
+| details.fromduedate | string | From due date |
+| details.uptoduedate | string | Up to due date |
+| details.totalinterest | float | Total interest amount |
+| details.totalpremium | float | Total premium amount |
+| details.totaldue | float | Total due amount |
+| details.dueinstallment | integer | Current installment number |
+| details.lastpremiumpaydate | string | Last premium payment date |
+| details.totaldueafteradjrecpay | float | Total due after adjustment |
+| session | integer | Session ID for payment |
+| status | boolean | Request status |
+
+---
+
+## Make Payment
+
+
+**URL:** `{{base_url}}/api/servicegroup/commit/surya-life-insurance/`  
+
+**Method:** POST
+
+### Request Parameters
+
+- **token:** Authentication token  
+- **session_id:** Session ID obtained from details endpoint  
+- **name:** Name of the person making the payment  
+- **email:** Email of the payer  
+- **mobile:** Mobile number of the payer  
+- **anticipate_adj:** Optional, indicate anticipated adjustment (`1` for yes)  
+
+### Request Example
 
 <pre><code class="json">
 {
-    "status": false,
-    "error_code": "4000",
-    "message": "Can't fulfill request",
-    "error": "client_error",
-    "details": "Invalid Date of Birth/Policy Number",
-    "error_data": {},
-    "state": "Error"
+    "session_id": "41550",
+    "token": "{{token}}",
+    "name": "test Shrestha",
+    "email": "test@gmail.com",
+    "mobile": "9801856451",
+    "anticipate_adj": "1"
 }
 </code></pre>
 
-**Overview**: 
-The Detail Fetch API retrieves comprehensive details about a specific insurance policy based on the policy number and date of birth. It provides information such as the policy number, premium amount, fine amount, due dates, and policy status.
-
-## Surya Jyoti Life Payment API
-
-**Request URL**: {{base_url}}/api/servicegroup/commit/surya-life-insurance/
-
-**Request Method**: POST
-
-**Service Params**:
-
-<pre><code class="json">
-{
-    "token": "<token>",
-    "session_id": "<session id from detail step>",
-    "reference": "reference123",
-    "amount": 1305
-}
-</code></pre>
-
-**Success Response**:
+### Response Example
 
 <pre><code class="json">
 {
@@ -92,39 +143,190 @@ The Detail Fetch API retrieves comprehensive details about a specific insurance 
     "state": "Success",
     "message": "Successfully Completed Transaction",
     "extra_data": {
-        "customer_name": "Parbati Kunwar Karki",
-        "fine_amount": 0.0,
-        "adjustment_amount": 0.0,
-        "premium_amount": 8430.0,
-        "payment_date": "02/06/2020",
-        "next_due_date": "20/05/2021",
-        "policy_no": "111001524",
-        "total_amount": 8430.0
+        "receipt_number": "R7778283004669"
     },
-    "detail": "Transaction Successful",
-    "credits_consumed": 8430.0,
-    "credits_available": 477719.77,
-    "id": 85407
+    "detail": "Payment Successful",
+    "credits_consumed": 17100,
+    "credits_available": 99990291739.42978,
+    "id": 190508
 }
 </code></pre>
 
-**Error Response**:
+### Response Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| status | boolean | Transaction status |
+| state | string | Transaction state |
+| message | string | Transaction message |
+| extra_data | object | Additional data (e.g., receipt number) |
+| detail | string | Transaction detail |
+| credits_consumed | float | Amount consumed in credits |
+| credits_available | float | Remaining available credits |
+| id | integer | Transaction ID |
+# Surya Jyoti Life Insurance Service API Documentation
+
+The **Surya Jyoti Life Insurance Service** allows you to fetch policy details and make premium payments for life insurance policies. This documentation explains the API endpoints for retrieving policy details and processing payments.
+
+---
+
+## Details Fetch
+
+**URL (Live):** `{{base_url}}/api/servicegroup/details/surya-jyoti-life-insurance/`  
+**URL (Staging):** `{{base_url}}/api/servicegroup/details/surya-life-insurance/`  
+
+**Method:** POST
+
+### Request Parameters
+
+The following parameters are required in the POST request:
+
+- **token:** Authentication token  
+- **reference:** Unique reference ID for the request  
+- **dob:** Date of birth of the policyholder (`YYYY-MM-DD`)  
+- **date_type:** Type of date (`AD` or `BS`)  
+- **policy_number:** Policy number  
+- **service_slug:** Service identifier (`surya-life-insurance` for staging, `surya-jyoti-life-insurance` for live)  
+
+### Request Example
 
 <pre><code class="json">
 {
-    "status": false,
-    "error_code": "1011",
-    "message": "Validation error",
-    "error": "validation_error",
-    "details": {
-        "amount": "Invalid Amount"
-    },
-    "error_data": {
-        "amount": "Invalid Amount"
-    },
-    "state": "Error"
+    "reference": "d5b8e6b5-ac8c-4475-90b3-103a57d3ae7c",
+    "dob": "2014-08-09",
+    "date_type": "AD",
+    "policy_number": "405003539",
+    "token": "{{token}}",
+    "service_slug": "surya-life-insurance"
 }
 </code></pre>
 
-**Overview**: 
-The Payment API processes payments for a Surya Life Insurance policy. It requires details such as the session ID (from the Detail Fetch API), payment amount, and a unique reference identifier. On successful completion, it returns transaction details including customer name, payment date, and total amount. If there are issues, such as invalid payment amounts, the API will return an error response with relevant details.
+### Response Example
+
+<pre><code class="json">
+{
+    "details": [
+        {
+            "policynumber": "20800000083",
+            "assuredname": "Rita Sene (Khapung)",
+            "gender": "FEMALE",
+            "plancode": "151",
+            "plan": "SuryaJyoti Sawadhik Jeevan Beema",
+            "dobassured": "1990-10-02T00:00:00",
+            "sumassured": 300000,
+            "periodicpremium": 21515,
+            "premiumtermyear": 15,
+            "policytermyear": 15,
+            "maturedate": "2038-09-17T00:00:00",
+            "paymode": "YRLY",
+            "mobile": "9860946708",
+            "docdate": "2023-09-17T00:00:00",
+            "recpayable": 0,
+            "anticipateadjamount": 0,
+            "fromduedate": "2025-09-17T00:00:00",
+            "uptoduedate": "2025-09-17T00:00:00",
+            "totalinterest": 0,
+            "totalpremium": 21515,
+            "totaldue": 21515,
+            "dueinstallment": 1,
+            "lastpremiumpaydate": "2037-09-17T00:00:00",
+            "totaldueafteradjrecpay": 21515
+        }
+    ],
+    "session": 41550,
+    "status": true
+}
+</code></pre>
+
+### Response Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| details | array | Array of policy details |
+| details.policynumber | string | Policy number |
+| details.assuredname | string | Policyholder name |
+| details.gender | string | Gender of policyholder |
+| details.plancode | string | Plan code |
+| details.plan | string | Plan name |
+| details.dobassured | string | Date of birth of the assured |
+| details.sumassured | float | Sum assured |
+| details.periodicpremium | float | Periodic premium amount |
+| details.premiumtermyear | integer | Premium term in years |
+| details.policytermyear | integer | Policy term in years |
+| details.maturedate | string | Policy maturity date |
+| details.paymode | string | Payment mode (e.g., YRLY) |
+| details.mobile | string | Mobile number |
+| details.docdate | string | Date of document creation |
+| details.recpayable | float | Receivable amount |
+| details.anticipateadjamount | float | Anticipated adjustment amount |
+| details.fromduedate | string | From due date |
+| details.uptoduedate | string | Up to due date |
+| details.totalinterest | float | Total interest amount |
+| details.totalpremium | float | Total premium amount |
+| details.totaldue | float | Total due amount |
+| details.dueinstallment | integer | Current installment number |
+| details.lastpremiumpaydate | string | Last premium payment date |
+| details.totaldueafteradjrecpay | float | Total due after adjustment |
+| session | integer | Session ID for payment |
+| status | boolean | Request status |
+
+---
+
+## Make Payment
+
+**URL (Live):** `{{base_url}}/api/servicegroup/commit/surya-jyoti-life-insurance/`  
+**URL (Staging):** `{{base_url}}/api/servicegroup/commit/surya-life-insurance/`  
+
+**Method:** POST
+
+### Request Parameters
+
+- **token:** Authentication token  
+- **session_id:** Session ID obtained from details endpoint  
+- **name:** Name of the person making the payment  
+- **email:** Email of the payer  
+- **mobile:** Mobile number of the payer  
+- **anticipate_adj:** Optional, indicate anticipated adjustment (`1` for yes)  
+
+### Request Example
+
+<pre><code class="json">
+{
+    "session_id": "41550",
+    "token": "{{token}}",
+    "name": "test Shrestha",
+    "email": "test@gmail.com",
+    "mobile": "9801856451",
+    "anticipate_adj": "1"
+}
+</code></pre>
+
+### Response Example
+
+<pre><code class="json">
+{
+    "status": true,
+    "state": "Success",
+    "message": "Successfully Completed Transaction",
+    "extra_data": {
+        "receipt_number": "R7778283004669"
+    },
+    "detail": "Payment Successful",
+    "credits_consumed": 17100,
+    "credits_available": 99990291739.42978,
+    "id": 190508
+}
+</code></pre>
+
+### Response Parameters
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| status | boolean | Transaction status |
+| state | string | Transaction state |
+| message | string | Transaction message |
+| extra_data | object | Additional data (e.g., receipt number) |
+| detail | string | Transaction detail |
+| credits_consumed | float | Amount consumed in credits |
+| credits_available | float | Remaining available credits |
+| id | integer | Transaction ID |

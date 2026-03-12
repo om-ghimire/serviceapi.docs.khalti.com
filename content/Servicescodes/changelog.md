@@ -1,9 +1,19 @@
 ## **Change Log**
 
+**Version 8.6, March 12th 2026**
+
+  * Added Code Himalayan EMI [Code Himalayan EMI](../EMI/code-himalayan-emi/code-himalayan-emi.md).
+  * Added Synergy EMI [Synergy EMI](../EMI/synergy/synergy.md).
+  * Added Zoo Ticketing Service: [Zoo Ticketing Service](../central-zoo/zoo.md)
+  * Updated Surya Jyoti Life Insurance [Surya Jyoti Life Insurance](../Insurance/surya/Suryalife.md   )
+
+
+
 **Version 8.5, Feb 10th 2026**
 
   * eChalan new Services Added Please Refer to [echalan](../gov-payment/echalan.md).
   * Gov Payment New service Added Please Refer to [Gov Payment](../gov-payment/gov-payment.md).
+
 **Version 8.4, Feb 10th 2026**
 
   * Wifi nepal new Docs Updated Please Refer to [Wifi Nepal](../Internet/wifi-nepal.md).
