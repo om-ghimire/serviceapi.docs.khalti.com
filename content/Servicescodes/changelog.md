@@ -1,4 +1,6 @@
-## **Change Log**
+**Version 8.7, March 31st 2026**
+
+  * Nea V2 service added [Nea v2](../Electricity/nea-v2.md)
 
 **Version 8.6, March 12th 2026**
 

@@ -16,7 +16,9 @@ nav:
       - NTC DataPacks: datapacks/ntcProduct.md
 
       
-  - Electricity: Electricity/nea.md
+  - Electricity:
+      - Nea v1 : Electricity/nea.md
+      - Nea v2 : Electricity/nea-v2.md
   - Khanepani: 
       - Community Khanepani: Khanepani/khanepani.md
       - Kukl:

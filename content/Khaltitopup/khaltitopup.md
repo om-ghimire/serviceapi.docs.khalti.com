@@ -33,7 +33,7 @@
     {
         "name": "NTC",
         "slug": "ntc",
-        "pattern": "^([9][78][46][0-9]{7}|9[0][4][01][0-9]{6})$",
+        "pattern": "^([9][078][46][0-9]{7}|9[0][4][01][0-9]{6}|9840|9041)$",
         "error_message": "Invalid mobile number"
     },
     {
@@ -51,7 +51,7 @@
     {
         "name": "NT CDMA",
         "slug": "nt-cdma",
-        "pattern": "^([9][78][46][0-9]{7}|9[0][4][01][0-9]{6})$",
+        "pattern": "^([9][078][46][0-9]{7}|9[0][4][01][0-9]{6}|9840|9041)$",
         "error_message": "Invalid mobile number"
     },
     {
@@ -62,7 +62,6 @@
     }
 ]
 </code></pre>
-
 
 
 ## Success Response 
