@@ -58,7 +58,7 @@ Retrieves the list of all available counters.
   **Description:**
 Fetches billing details using the updated consumer number.
 
-  Request Body:
+  **Request Body:**
 <pre><code class="json">
 {
     "token": "{{token}}",
@@ -162,10 +162,10 @@ For detailed information regarding applicable service charges, please refer to t
 
 **Method:** POST
 
- ** Description:**
+ **Description:**
 Processes payment for NEA bills.
 
-**  Request Body:**
+** Request Body:**
 <pre><code class="json">
 {
     "token": "{{token}}",
@@ -229,7 +229,7 @@ This API retrieves the updated consumer ID using old SC number and consumer ID.
 
 **Method:** POST
 
- ** Request Body:**
+ **Request Body:**
 <pre><code class="json">
 {
     "token": "{{token}}",
@@ -251,7 +251,7 @@ This API retrieves the updated consumer ID using old SC number and consumer ID.
   **Parameters:**
 - **sc_no**: Old SC number  
 - **old_consumer_id**: Old consumer ID  
-- **org_name**: Organization name (from Counter API)
+- **org_name**: Organization Value (from Counter API)
 
 <div style="padding:12px; border-left:4px solid #3b82f6; background-color:#eff6ff; border-radius:6px;">
 <strong>Important Notes:</strong>
