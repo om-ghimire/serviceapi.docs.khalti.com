@@ -64,15 +64,15 @@ Fetches billing details using the updated consumer number.
     "token": "{{token}}",
     "reference": "{{$guid}}",
     "request_no": "1001595737",
-    "confirm_type": "E",
-    "confirm_id_type": "CN"
+    "confirm_type": "Energy Charge",
+    "confirm_id_type": "Consumer Number"
 }
 </code></pre>
 
   **Parameters:**
 - **request_no**: New consumer number (provided by NEA)  
-- **confirm_type**: Always `"E"` (Energy Charge) *(may support additional values in future)*  
-- **confirm_id_type**: Always `"CN"` (Consumer Number) *(may support additional values in future)*  
+- **confirm_type**: Always `Energy Charge` *(may support additional values in future)*  
+- **confirm_id_type**: Always `Consumer Number` *(may support additional values in future)*  
 
 ---
 
