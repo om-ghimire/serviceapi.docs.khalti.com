@@ -24,7 +24,7 @@ nav:
       - Kukl:
           - Counter : Khanepani/Kukl/counter.md 
           - Kukl Details: Khanepani/Kukl/Kukl-Details.md
-          - Kukl Service Charge: servicecharge/service-charge.md
+          - Service Charge: servicecharge/service-charge.md
           - KUKL Payment: Khanepani/Kukl/Kukl-payment.md
 
   - TV :
@@ -128,9 +128,10 @@ nav:
       - Mcafee Antivirus: antivirus/mcafee.md
 
   - Meroshare & Demat :
-    - Counter: CDSC/dp-counter.md
-    - Details: CDSC/details.md
-    - Payment: CDSC/payment.md
+      - Counter: CDSC/dp-counter.md
+      - Details: CDSC/details.md
+      - Demat Service Charge: servicecharge/service-charge.md
+      - Payment: CDSC/payment.md 
 
   - Waste Management:
     - Waste Management: waste/waste-mgmt.md
@@ -154,7 +155,6 @@ nav:
   - Gov Payment:
     - eChalan: gov-payment/echalan.md
     - Gov Payment: gov-payment/gov-payment.md
-
 
   - Flight:
     - Sector : flight/sector.md 
