@@ -98,12 +98,14 @@ nav:
         - Citizen Life Insurance: Insurance/Citizen/citizen.md
         - Surya Life Insurance First Payment:  Insurance/surya/surya_life_insurance.md
         - IME General Insurance: Insurance/ime/ime_general.md
+        - Insur Tech Life Insurance: Insurance/insur-tech-life.md
         - Nepal Life Insurance: Insurance/Nepal/nepal_Life_Insurace.md
         - Himalayan Life Insurance: Insurance/himalaya-insurance.md
         - National Life Insurance: Insurance/national-life-insurance.md
 
-      - Loan Repayment : Insurance/Arhant Insurance/Life Loan Repayment/arhant-loan-repayment.md  
-  
+      - Loan Repayment : 
+        - Arhant Loan Repayment: Insurance/Arhant Insurance/Life Loan Repayment/arhant-loan-repayment.md  
+        - Insur Tech: Insurance/insur-tech-loan.md
 
   - EMI:
     - Maw EMI: EMI/maw/maw.md
@@ -180,7 +182,8 @@ nav:
           - SIP Details : sip/kumari-sip/sip/sip-payment-details.md
           - SIP Payment: sip/kumari-sip/sip/sip-payment-payment.md
 
-
+  - World Cup:
+      - Dishhome Go coupon: Worldcup/Dishhome/dishhome-go.md
 
 
 

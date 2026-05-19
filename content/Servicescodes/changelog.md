@@ -1,3 +1,10 @@
+**Version 9.0, May 19th 2026**
+
+  * Added New Doc for 	Sun Nepal Premium  [Insur Tech](../Insurance/insur-tech-life.md)
+  * Added New Doc for 		Sun Nepal Loan Repayment  [Insur Tech Loan](../Insurance/insur-tech-loan.md)
+  * Added exclusive FIFA World Cup packages for purchase. [Worldcup](../Worldcup/)
+
+
 **Version 8.9, May 6th 2026**
 
   * Update  Nepal Life Insurance[Nepal Life Insurance](../Insurance/Nepal/nepal_Life_Insurace.md)
