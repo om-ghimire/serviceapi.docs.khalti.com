@@ -1,15 +1,34 @@
 # Dishhome Go Coupon
 
-This service sells Dishhome Go coupons. After a successful payment the API returns the coupon code (PIN/serial). Integrators should send the PIN to the end customer via SMS and email.
+This service sells Dishhome Go coupons. After a successful payment, the API returns the coupon code (PIN/serial). Integrators should send the PIN to the end customer via SMS and email.
 
-**SMS content suggestion:**
+**SMS content suggestion**
 
-- Your Dishhome Go coupon: `{{pin}}` (Serial: `{{serial}}`). Thank you for your purchase.
+- Thank you for subscribing to Dishhome Go via Khalti. Your coupon code is `{pin}`. Redeem it in the DGO app. T&C apply.
 
-**Email content suggestion:**
+**Email content suggestion**
 
-- Subject: Your Dishhome Go Coupon
-- Body: Your Dishhome Go coupon PIN is `{{pin}}` and serial is `{{serial}}`. Keep it safe.
+- **Subject:** Purchase Confirmation — DGO Coupon Code
+
+- **Body:**
+
+  Dear User,
+
+  Thank you for subscribing to the DGO coupon through Khalti.
+
+  **Your Coupon Code:** `{pin}`
+
+  To redeem your coupon, please apply the code within the DGO app.
+
+  Please note:
+
+  - Coupons are valid only in the region where they are issued.
+  - Coupon validity and applicable terms are governed by DGO.
+
+  If you need any assistance, please contact our support team.
+
+  Best regards,  
+  {Company name}
 
 ---
 
