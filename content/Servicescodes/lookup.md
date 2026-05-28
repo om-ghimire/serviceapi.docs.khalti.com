@@ -6,8 +6,6 @@ The **Service Status Lookup API** allows you to check the status of a transactio
 
 **URL:** {{base_url}}/api/service/status/
 
-**Example:** {{base_url}}/api/service/status/{{token}}/{{reference}}
-
 **METHOD:** GET
 
 ### **Request Parameters**

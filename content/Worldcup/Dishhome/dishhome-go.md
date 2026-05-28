@@ -2,15 +2,16 @@
 
 This service sells Dishhome Go coupons. After a successful payment, the API returns the coupon code (PIN/serial). Integrators should send the PIN to the end customer via SMS and email.
 
+--- 
 **SMS content suggestion**
 
 - Thank you for subscribing to Dishhome Go via Khalti. Your coupon code is `{pin}`. Redeem it in the DGO app. T&C apply.
 
+--- 
+
 **Email content suggestion**
 
 - **Subject:** Purchase Confirmation — DGO Coupon Code
-
-- **Body:**
 
   Dear User,
 
@@ -66,7 +67,7 @@ This endpoint processes the payment and returns the coupon PIN/serial.
 
 <pre><code class="json">
 {
-  "token": "{{token}}",
+  "token": "<your token>",
   "reference": "{{$guid}}",
   "name": "Dishhome test",
   "value": "web",
@@ -76,7 +77,7 @@ This endpoint processes the payment and returns the coupon PIN/serial.
 }
 </code></pre>
 
-#### Response
+#### Success Response
 
 <pre><code class="json">
 {
@@ -91,5 +92,108 @@ This endpoint processes the payment and returns the coupon PIN/serial.
 }
 </code></pre>
 
+
+#### Failed Response
+
+### Invalid Product Value
+
+<pre><code class="json">
+{
+    "status": false,
+    "error_code": "1010",
+    "message": "Validation error",
+    "error": "invalid_parameters",
+    "details": {
+        "value": "Invalid value for product"
+    },
+    "error_data": {
+        "value": "Invalid value for product"
+    },
+    "state": "Error"
 }
- 
+</code></pre>
+
+
+### Invalid Amount
+
+<pre><code class="json">
+{
+    "status": false,
+    "error_code": "1010",
+    "message": "Validation error",
+    "error": "invalid_parameters",
+    "details": {
+        "amount": "enter valid amount "
+    },
+    "error_data": {
+        "amount": "enter valid amount "
+    },
+    "state": "Error"
+}
+</code></pre>
+
+
+### Invalid Phone Number
+
+<pre><code class="json">
+{
+    "status": false,
+    "error_code": "1010",
+    "message": "Validation error",
+    "error": "invalid_parameters",
+    "details": {
+        "phone_number": "enter valid phone number"
+    },
+    "error_data": {
+        "phone_number": "enter valid phone number"
+    },
+    "state": "Error"
+}
+</code></pre>
+
+### Invalid Email Format
+
+<pre><code class="json">
+{
+    "status": false,
+    "error_code": "1010",
+    "message": "Validation error",
+    "error": "invalid_parameters",
+    "details": {
+        "value": "enter valid email"
+    },
+    "error_data": {
+        "value": "enter valid email"
+    },
+    "state": "Error"
+}
+</code></pre>
+
+
+### Product Out of Stock / Unavailable
+
+<pre><code class="json">
+{
+    "status": false,
+    "error_code": "4000",
+    "message": "Can't fulfill request",
+    "error": "client_error",
+    "details": "Product Currently Unavailable",
+    "error_data": {},
+    "state": "Error"
+}
+</code></pre>
+
+### Duplicate Reference ID
+
+<pre><code class="json">
+{
+    "status": false,
+    "error_code": "1013",
+    "message": "Request with duplicate reference id obtained",
+    "error": "duplicate_request",
+    "details": "",
+    "error_data": {},
+    "state": "Error"
+}
+</code></pre>

@@ -39,17 +39,18 @@ These identifiers are provided by Dishhome.
 
 ### Request Body
 
-```json
+<pre><code class="json">
 {
-  "token": "<your token>",
-  "reference": "<unique identifier>",
+  "token": "{your token}",
+  "reference": "{unique identifier}",
   "request_id": "13859499"
 }
-```
+</code></pre>
 
 ### Response
 
-```json
+
+<pre><code class="json">
 {
   "session_id": 45184,
   "expiry_date": "2027-10-05T10:45:00",
@@ -76,7 +77,7 @@ These identifiers are provided by Dishhome.
     }
   ]
 }
-```
+</code></pre>
 
 ### Notes
 
@@ -96,16 +97,16 @@ This API processes the payment and activates the FIFA channels on the selected d
 
 ### Request Body
 
-```json
+<pre><code class="json">
 {
-  "token": "<Your token>",
-  "reference": "<unique identifier>",
+  "token": "{Your token}",
+  "reference": "{unique identifier}",
   "session_id": "{{session_id}}",
   "amount": 999.0,
   "contact_number": "9860848045",
   "payment_request_id": "888279618D44"
 }
-```
+</code></pre>
 
 ### Field Description
 
@@ -118,7 +119,7 @@ This API processes the payment and activates the FIFA channels on the selected d
 
 ### Response
 
-```json
+<pre><code class="json">
 {
   "status": true,
   "state": "Success",
@@ -131,6 +132,6 @@ This API processes the payment and activates the FIFA channels on the selected d
   "credits_available": 99986842144.7998,
   "id": 177379
 }
-```
+</code></pre>
 
 ---
