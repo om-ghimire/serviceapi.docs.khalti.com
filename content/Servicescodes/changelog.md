@@ -1,3 +1,7 @@
+**Version 9.2, May 27th 2026**
+
+   * Updated error response [Worldcup-DGO Coupon](../Worldcup/Dishhome/dishhome-go.md)
+   
 **Version 9.1, May 27th 2026**
 
    * Added New Doc for Dishhome Fifa Recharge [Worldcup-Dishhome Fifa Recharge](../Worldcup/Dishhome/dishhome-fifa-recharge.md)
