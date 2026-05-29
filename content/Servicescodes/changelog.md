@@ -1,3 +1,7 @@
+**Version 9.3, May 27th 2026**
+
+   * Added  Nettv  World Cup packages for purchase. [Worldcup Nettv Coupon](../Worldcup/nettv/nettvcine.md)
+ 
 **Version 9.2, May 27th 2026**
 
    * Updated error response [Worldcup-DGO Coupon](../Worldcup/Dishhome/dishhome-go.md)
