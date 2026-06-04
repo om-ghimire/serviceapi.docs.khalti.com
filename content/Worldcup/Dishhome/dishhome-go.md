@@ -133,43 +133,6 @@ This endpoint processes the payment and returns the coupon PIN/serial.
 </code></pre>
 
 
-### Invalid Phone Number
-
-<pre><code class="json">
-{
-    "status": false,
-    "error_code": "1010",
-    "message": "Validation error",
-    "error": "invalid_parameters",
-    "details": {
-        "phone_number": "enter valid phone number"
-    },
-    "error_data": {
-        "phone_number": "enter valid phone number"
-    },
-    "state": "Error"
-}
-</code></pre>
-
-### Invalid Email Format
-
-<pre><code class="json">
-{
-    "status": false,
-    "error_code": "1010",
-    "message": "Validation error",
-    "error": "invalid_parameters",
-    "details": {
-        "value": "enter valid email"
-    },
-    "error_data": {
-        "value": "enter valid email"
-    },
-    "state": "Error"
-}
-</code></pre>
-
-
 ### Product Out of Stock / Unavailable
 
 <pre><code class="json">
