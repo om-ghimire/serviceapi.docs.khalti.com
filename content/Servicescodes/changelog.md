@@ -1,3 +1,7 @@
+**Version 9.4, Jun 4th 2026**
+
+   * Removed the mobile number and email fields from the required fields [Worldcup-DGO Coupon](../Worldcup/Dishhome/dishhome-go.md)
+   
 **Version 9.3, May 27th 2026**
 
    * Added  Nettv  World Cup packages for purchase. [Worldcup Nettv Coupon](../Worldcup/nettv/nettvcine.md)
